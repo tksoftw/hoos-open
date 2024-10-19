@@ -1,0 +1,39 @@
+<!doctype html>
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="text-6xl text-center font-medium my-20">
+        <script type="text/javascript">
+            let myDate = new Date();
+            // get hour value. 
+            let hours = myDate.getHours();
+            let ampm = hours >= 12 ? 'PM' : 'AM';
+            hours = hours % 12;
+            hours = hours ? hours : 12;
+            let minutes = myDate.getMinutes();
+            minutes = minutes < 10 ? '0' + minutes : minutes;
+            let myTime = hours + ":" + minutes + " " + ampm
+            //let year = myDate.getFullYear();
+            //let month = myDate.getMonth() + 1;
+            //let date = myDate.getDate();
+            //let myDay = year + month + date;
+            //document.write("\tCurrent time is: " + myTime + "\tEST"+ myDay); 
+            document.write("\tCurrent time is: " + myTime + "\tEST");
+        </script>
+    </div>
+
+    <div class ="relative top-4 left-3 right-0">
+        <button class="w-64 h-32 bg-[#06b6d4] ml-20">
+            Dining
+        </button>
+        <button class="w-64 h-32 bg-[#06b6d4] ml-10">
+            Study
+        </button>
+        <button class="w-64 h-32 bg-[#06b6d4] ml-10">
+            Other
+        </button>
+    </div>
+
+</body>
+</html>
