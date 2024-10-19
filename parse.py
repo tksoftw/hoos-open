@@ -56,7 +56,7 @@ def get_all_library_hours(html_text, date):
     return all_library_hours
     
 
-with open('index.html', 'r', encoding='utf-8') as file:
+with open('lib_site.html', 'r', encoding='utf-8') as file:
     contents = file.read()
     db = []
     start_day = first_recorded_day
