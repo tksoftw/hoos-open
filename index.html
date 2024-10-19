@@ -15,8 +15,83 @@
             }
         }
     </script>
+    <body>
+    </body>
 </head>
 <body>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    animation: {
+                    'infinite-scroll': 'infinite-scroll 25s linear infinite',
+                },
+                keyframes: {
+                    'infinite-scroll': {
+                        from: { transform: 'translateX(0)' },
+                        to: { transform: 'translateX(-100%)' },
+                    }
+                }
+                },
+            },
+        }
+    </script>
+    <div class="w-full inline-flex flex-nowrap">
+        <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 animate-infinite-scroll">
+            <li>
+                <p>Nothing is open</p>
+            </li>
+            <li>
+                <p>Nothing is open</p>
+            </li>
+            <li>
+                <p>Nothing is open</p>
+            </li>
+            <li>
+                <p>Nothing is open</p>
+            </li>
+            <li>
+                <p>Nothing is open</p>
+            </li>
+            <li>
+                <p>Nothing is open</p>
+            </li>
+            <li>
+                <p>Nothing is open</p>
+            </li>
+            <li>
+                <p>Nothing is open</p>
+            </li>
+        </ul>
+        <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 animate-infinite-scroll" aria-hidden="true">
+            <li>
+                <p>Nothing is open</p>
+            </li>
+            <li>
+                <p>Nothing is open</p>
+            </li>
+            <li>
+                <p>Nothing is open</p>
+            </li>
+            <li>
+                <p>Nothing is open</p>
+            </li>
+            <li>
+                <p>Nothing is open</p>
+            </li>
+            <li>
+                <p>Nothing is open</p>
+            </li>
+            <li>
+                <p>Nothing is open</p>
+            </li>
+            <li>
+                <p>Nothing is open</p>
+            </li>
+        </ul>
+    </div>
+
+
     <div class="text-6xl text-center font-body my-20">
         <script type="text/javascript">
             let myDate = new Date();
