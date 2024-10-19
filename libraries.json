@@ -1,0 +1,3082 @@
+[
+    {
+        "clem": [
+            "1pm",
+            "5pm"
+        ],
+        "shannon": [
+            "1pm",
+            "5pm"
+        ],
+        "brown": [
+            "1pm",
+            "5pm"
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "8am",
+            "10pm"
+        ],
+        "shannon": [
+            "8am",
+            "10pm"
+        ],
+        "brown": [
+            "8am",
+            "10pm"
+        ],
+        "music": [
+            "9am",
+            "6pm"
+        ],
+        "finearts": [
+            "9am",
+            "6pm"
+        ]
+    },
+    {
+        "clem": [
+            "8am",
+            "12am"
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "12am",
+            "12am"
+        ],
+        "shannon": [
+            "8am",
+            "9pm"
+        ],
+        "brown": [
+            "8am",
+            "9pm"
+        ],
+        "music": [
+            "9am",
+            "6pm"
+        ],
+        "finearts": [
+            "9am",
+            "6pm"
+        ]
+    },
+    {
+        "clem": [
+            "9am",
+            "12am"
+        ],
+        "shannon": [
+            "9am",
+            "6pm"
+        ],
+        "brown": [
+            "9am",
+            "6pm"
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "10am",
+            "12am"
+        ],
+        "shannon": [
+            "10am",
+            "2am"
+        ],
+        "brown": [
+            "10am",
+            "2am"
+        ],
+        "music": [
+            "1pm",
+            "11pm"
+        ],
+        "finearts": [
+            "1pm",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "12am",
+            "12am"
+        ],
+        "shannon": [
+            "8am",
+            "9pm"
+        ],
+        "brown": [
+            "8am",
+            "9pm"
+        ],
+        "music": [
+            "9am",
+            "6pm"
+        ],
+        "finearts": [
+            "9am",
+            "6pm"
+        ]
+    },
+    {
+        "clem": [
+            "9am",
+            "12am"
+        ],
+        "shannon": [
+            "9am",
+            "6pm"
+        ],
+        "brown": [
+            "9am",
+            "6pm"
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "10am",
+            "12am"
+        ],
+        "shannon": [
+            "10am",
+            "2am"
+        ],
+        "brown": [
+            "10am",
+            "2am"
+        ],
+        "music": [
+            "1pm",
+            "11pm"
+        ],
+        "finearts": [
+            "1pm",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "12am",
+            "12am"
+        ],
+        "shannon": [
+            "8am",
+            "9pm"
+        ],
+        "brown": [
+            "8am",
+            "9pm"
+        ],
+        "music": [
+            "9am",
+            "6pm"
+        ],
+        "finearts": [
+            "9am",
+            "6pm"
+        ]
+    },
+    {
+        "clem": [
+            "9am",
+            "12am"
+        ],
+        "shannon": [
+            "9am",
+            "6pm"
+        ],
+        "brown": [
+            "9am",
+            "6pm"
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "10am",
+            "12am"
+        ],
+        "shannon": [
+            "10am",
+            "2am"
+        ],
+        "brown": [
+            "10am",
+            "2am"
+        ],
+        "music": [
+            "1pm",
+            "11pm"
+        ],
+        "finearts": [
+            "1pm",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "12am",
+            "12am"
+        ],
+        "shannon": [
+            "8am",
+            "9pm"
+        ],
+        "brown": [
+            "8am",
+            "9pm"
+        ],
+        "music": [
+            "9am",
+            "6pm"
+        ],
+        "finearts": [
+            "9am",
+            "6pm"
+        ]
+    },
+    {
+        "clem": [
+            "9am",
+            "12am"
+        ],
+        "shannon": [
+            "9am",
+            "6pm"
+        ],
+        "brown": [
+            "9am",
+            "6pm"
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "10am",
+            "12am"
+        ],
+        "shannon": [
+            "10am",
+            "2am"
+        ],
+        "brown": [
+            "10am",
+            "2am"
+        ],
+        "music": [
+            "1pm",
+            "11pm"
+        ],
+        "finearts": [
+            "1pm",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "12am",
+            "12am"
+        ],
+        "shannon": [
+            "8am",
+            "9pm"
+        ],
+        "brown": [
+            "8am",
+            "9pm"
+        ],
+        "music": [
+            "9am",
+            "6pm"
+        ],
+        "finearts": [
+            "9am",
+            "6pm"
+        ]
+    },
+    {
+        "clem": [
+            "9am",
+            "12am"
+        ],
+        "shannon": [
+            "9am",
+            "6pm"
+        ],
+        "brown": [
+            "9am",
+            "6pm"
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "10am",
+            "12am"
+        ],
+        "shannon": [
+            "10am",
+            "2am"
+        ],
+        "brown": [
+            "10am",
+            "2am"
+        ],
+        "music": [
+            "1pm",
+            "11pm"
+        ],
+        "finearts": [
+            "1pm",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "12am",
+            "12am"
+        ],
+        "shannon": [
+            "8am",
+            "9pm"
+        ],
+        "brown": [
+            "8am",
+            "9pm"
+        ],
+        "music": [
+            "9am",
+            "6pm"
+        ],
+        "finearts": [
+            "9am",
+            "6pm"
+        ]
+    },
+    {
+        "clem": [
+            "9am",
+            "12am"
+        ],
+        "shannon": [
+            "9am",
+            "6pm"
+        ],
+        "brown": [
+            "9am",
+            "6pm"
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "10am",
+            "12am"
+        ],
+        "shannon": [
+            "10am",
+            "2am"
+        ],
+        "brown": [
+            "10am",
+            "2am"
+        ],
+        "music": [
+            "1pm",
+            "11pm"
+        ],
+        "finearts": [
+            "1pm",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "8pm"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "Closed",
+            null
+        ],
+        "shannon": [
+            "Closed",
+            null
+        ],
+        "brown": [
+            "Closed",
+            null
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "Closed",
+            null
+        ],
+        "shannon": [
+            "Closed",
+            null
+        ],
+        "brown": [
+            "Closed",
+            null
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "Closed",
+            null
+        ],
+        "shannon": [
+            "Closed",
+            null
+        ],
+        "brown": [
+            "Closed",
+            null
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "Closed",
+            null
+        ],
+        "shannon": [
+            "Closed",
+            null
+        ],
+        "brown": [
+            "Closed",
+            null
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "10am",
+            "12am"
+        ],
+        "shannon": [
+            "10am",
+            "2am"
+        ],
+        "brown": [
+            "10am",
+            "2am"
+        ],
+        "music": [
+            "1pm",
+            "11pm"
+        ],
+        "finearts": [
+            "1pm",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "12am"
+        ],
+        "finearts": [
+            "9am",
+            "12am"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "1pm",
+            "6pm"
+        ],
+        "finearts": [
+            "1pm",
+            "6pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "1pm",
+            "12am"
+        ],
+        "finearts": [
+            "1pm",
+            "12am"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "12am"
+        ],
+        "finearts": [
+            "9am",
+            "12am"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "12am"
+        ],
+        "finearts": [
+            "9am",
+            "12am"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "12am"
+        ],
+        "finearts": [
+            "9am",
+            "12am"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "12am"
+        ],
+        "finearts": [
+            "9am",
+            "12am"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "12am"
+        ],
+        "finearts": [
+            "9am",
+            "12am"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "1pm",
+            "6pm"
+        ],
+        "finearts": [
+            "1pm",
+            "6pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "1pm",
+            "12am"
+        ],
+        "finearts": [
+            "1pm",
+            "12am"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "12am"
+        ],
+        "finearts": [
+            "9am",
+            "12am"
+        ]
+    },
+    {
+        "clem": [
+            "12am",
+            "6pm"
+        ],
+        "shannon": [
+            "8am",
+            "6pm"
+        ],
+        "brown": [
+            "8am",
+            "6pm"
+        ],
+        "music": [
+            "9am",
+            "6pm"
+        ],
+        "finearts": [
+            "9am",
+            "6pm"
+        ]
+    },
+    {
+        "clem": [
+            "10am",
+            "6pm"
+        ],
+        "shannon": [
+            "10am",
+            "6pm"
+        ],
+        "brown": [
+            "10am",
+            "6pm"
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "10am",
+            "6pm"
+        ],
+        "shannon": [
+            "10am",
+            "6pm"
+        ],
+        "brown": [
+            "10am",
+            "6pm"
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "10am",
+            "6pm"
+        ],
+        "shannon": [
+            "10am",
+            "6pm"
+        ],
+        "brown": [
+            "10am",
+            "6pm"
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "Closed",
+            null
+        ],
+        "shannon": [
+            "Closed",
+            null
+        ],
+        "brown": [
+            "Closed",
+            null
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "Closed",
+            null
+        ],
+        "shannon": [
+            "Closed",
+            null
+        ],
+        "brown": [
+            "Closed",
+            null
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "Closed",
+            null
+        ],
+        "shannon": [
+            "Closed",
+            null
+        ],
+        "brown": [
+            "Closed",
+            null
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "Closed",
+            null
+        ],
+        "shannon": [
+            "Closed",
+            null
+        ],
+        "brown": [
+            "Closed",
+            null
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "Closed",
+            null
+        ],
+        "shannon": [
+            "Closed",
+            null
+        ],
+        "brown": [
+            "Closed",
+            null
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "Closed",
+            null
+        ],
+        "shannon": [
+            "Closed",
+            null
+        ],
+        "brown": [
+            "Closed",
+            null
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "Closed",
+            null
+        ],
+        "shannon": [
+            "Closed",
+            null
+        ],
+        "brown": [
+            "Closed",
+            null
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "Closed",
+            null
+        ],
+        "shannon": [
+            "Closed",
+            null
+        ],
+        "brown": [
+            "Closed",
+            null
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "Closed",
+            null
+        ],
+        "shannon": [
+            "Closed",
+            null
+        ],
+        "brown": [
+            "Closed",
+            null
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "Closed",
+            null
+        ],
+        "shannon": [
+            "Closed",
+            null
+        ],
+        "brown": [
+            "Closed",
+            null
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "Closed",
+            null
+        ],
+        "shannon": [
+            "Closed",
+            null
+        ],
+        "brown": [
+            "Closed",
+            null
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "Closed",
+            null
+        ],
+        "shannon": [
+            "Closed",
+            null
+        ],
+        "brown": [
+            "Closed",
+            null
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "9am",
+            "8pm"
+        ],
+        "shannon": [
+            "9am",
+            "8pm"
+        ],
+        "brown": [
+            "9am",
+            "8pm"
+        ],
+        "music": [
+            "9am",
+            "6pm"
+        ],
+        "finearts": [
+            "9am",
+            "6pm"
+        ]
+    },
+    {
+        "clem": [
+            "9am",
+            "6pm"
+        ],
+        "shannon": [
+            "9am",
+            "6pm"
+        ],
+        "brown": [
+            "9am",
+            "6pm"
+        ],
+        "music": [
+            "9am",
+            "6pm"
+        ],
+        "finearts": [
+            "9am",
+            "6pm"
+        ]
+    },
+    {
+        "clem": [
+            "1pm",
+            "5pm"
+        ],
+        "shannon": [
+            "1pm",
+            "5pm"
+        ],
+        "brown": [
+            "1pm",
+            "5pm"
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "1pm",
+            "8pm"
+        ],
+        "shannon": [
+            "1pm",
+            "8pm"
+        ],
+        "brown": [
+            "1pm",
+            "8pm"
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "9am",
+            "8pm"
+        ],
+        "shannon": [
+            "9am",
+            "8pm"
+        ],
+        "brown": [
+            "9am",
+            "8pm"
+        ],
+        "music": [
+            "9am",
+            "6pm"
+        ],
+        "finearts": [
+            "9am",
+            "6pm"
+        ]
+    },
+    {
+        "clem": [
+            "9am",
+            "8pm"
+        ],
+        "shannon": [
+            "9am",
+            "8pm"
+        ],
+        "brown": [
+            "9am",
+            "8pm"
+        ],
+        "music": [
+            "9am",
+            "6pm"
+        ],
+        "finearts": [
+            "9am",
+            "6pm"
+        ]
+    },
+    {
+        "clem": [
+            "9am",
+            "8pm"
+        ],
+        "shannon": [
+            "9am",
+            "8pm"
+        ],
+        "brown": [
+            "9am",
+            "8pm"
+        ],
+        "music": [
+            "9am",
+            "6pm"
+        ],
+        "finearts": [
+            "9am",
+            "6pm"
+        ]
+    },
+    {
+        "clem": [
+            "9am",
+            "8pm"
+        ],
+        "shannon": [
+            "9am",
+            "8pm"
+        ],
+        "brown": [
+            "9am",
+            "8pm"
+        ],
+        "music": [
+            "9am",
+            "6pm"
+        ],
+        "finearts": [
+            "9am",
+            "6pm"
+        ]
+    },
+    {
+        "clem": [
+            "9am",
+            "6pm"
+        ],
+        "shannon": [
+            "9am",
+            "6pm"
+        ],
+        "brown": [
+            "9am",
+            "6pm"
+        ],
+        "music": [
+            "9am",
+            "6pm"
+        ],
+        "finearts": [
+            "9am",
+            "6pm"
+        ]
+    },
+    {
+        "clem": [
+            "1pm",
+            "5pm"
+        ],
+        "shannon": [
+            "1pm",
+            "5pm"
+        ],
+        "brown": [
+            "1pm",
+            "5pm"
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "1pm",
+            "8pm"
+        ],
+        "shannon": [
+            "1pm",
+            "8pm"
+        ],
+        "brown": [
+            "1pm",
+            "8pm"
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "8am",
+            "2am"
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "8am",
+            "2am"
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "8am",
+            "2am"
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "8am",
+            "2am"
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "8am",
+            "12am"
+        ],
+        "shannon": [
+            "8am",
+            "9pm"
+        ],
+        "brown": [
+            "8am",
+            "9pm"
+        ],
+        "music": [
+            "9am",
+            "6pm"
+        ],
+        "finearts": [
+            "9am",
+            "6pm"
+        ]
+    },
+    {
+        "clem": [
+            "9am",
+            "12am"
+        ],
+        "shannon": [
+            "9am",
+            "6pm"
+        ],
+        "brown": [
+            "9am",
+            "6pm"
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "10am",
+            "2am"
+        ],
+        "shannon": [
+            "10am",
+            "2am"
+        ],
+        "brown": [
+            "10am",
+            "2am"
+        ],
+        "music": [
+            "1pm",
+            "11pm"
+        ],
+        "finearts": [
+            "1pm",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "8am",
+            "2am"
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "8am",
+            "2am"
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "8am",
+            "2am"
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "8am",
+            "2am"
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "8am",
+            "12am"
+        ],
+        "shannon": [
+            "8am",
+            "9pm"
+        ],
+        "brown": [
+            "8am",
+            "9pm"
+        ],
+        "music": [
+            "9am",
+            "6pm"
+        ],
+        "finearts": [
+            "9am",
+            "6pm"
+        ]
+    },
+    {
+        "clem": [
+            "9am",
+            "12am"
+        ],
+        "shannon": [
+            "9am",
+            "6pm"
+        ],
+        "brown": [
+            "9am",
+            "6pm"
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "10am",
+            "2am"
+        ],
+        "shannon": [
+            "10am",
+            "2am"
+        ],
+        "brown": [
+            "10am",
+            "2am"
+        ],
+        "music": [
+            "1pm",
+            "11pm"
+        ],
+        "finearts": [
+            "1pm",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "8am",
+            "2am"
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "8am",
+            "2am"
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "8am",
+            "2am"
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "8am",
+            "2am"
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "8am",
+            "12am"
+        ],
+        "shannon": [
+            "8am",
+            "9pm"
+        ],
+        "brown": [
+            "8am",
+            "9pm"
+        ],
+        "music": [
+            "9am",
+            "6pm"
+        ],
+        "finearts": [
+            "9am",
+            "6pm"
+        ]
+    },
+    {
+        "clem": [
+            "9am",
+            "12am"
+        ],
+        "shannon": [
+            "9am",
+            "6pm"
+        ],
+        "brown": [
+            "9am",
+            "6pm"
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "10am",
+            "2am"
+        ],
+        "shannon": [
+            "10am",
+            "2am"
+        ],
+        "brown": [
+            "10am",
+            "2am"
+        ],
+        "music": [
+            "1pm",
+            "11pm"
+        ],
+        "finearts": [
+            "1pm",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "8am",
+            "2am"
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "8am",
+            "2am"
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "8am",
+            "2am"
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "8am",
+            "2am"
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "8am",
+            "12am"
+        ],
+        "shannon": [
+            "8am",
+            "9pm"
+        ],
+        "brown": [
+            "8am",
+            "9pm"
+        ],
+        "music": [
+            "9am",
+            "6pm"
+        ],
+        "finearts": [
+            "9am",
+            "6pm"
+        ]
+    },
+    {
+        "clem": [
+            "9am",
+            "12am"
+        ],
+        "shannon": [
+            "9am",
+            "6pm"
+        ],
+        "brown": [
+            "9am",
+            "6pm"
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "10am",
+            "12am"
+        ],
+        "shannon": [
+            "10am",
+            "2am"
+        ],
+        "brown": [
+            "10am",
+            "2am"
+        ],
+        "music": [
+            "1pm",
+            "11pm"
+        ],
+        "finearts": [
+            "1pm",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "12am",
+            "12am"
+        ],
+        "shannon": [
+            "8am",
+            "9pm"
+        ],
+        "brown": [
+            "8am",
+            "9pm"
+        ],
+        "music": [
+            "9am",
+            "6pm"
+        ],
+        "finearts": [
+            "9am",
+            "6pm"
+        ]
+    },
+    {
+        "clem": [
+            "9am",
+            "12am"
+        ],
+        "shannon": [
+            "9am",
+            "6pm"
+        ],
+        "brown": [
+            "9am",
+            "6pm"
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "10am",
+            "12am"
+        ],
+        "shannon": [
+            "10am",
+            "2am"
+        ],
+        "brown": [
+            "10am",
+            "2am"
+        ],
+        "music": [
+            "1pm",
+            "11pm"
+        ],
+        "finearts": [
+            "1pm",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "12am",
+            "12am"
+        ],
+        "shannon": [
+            "8am",
+            "9pm"
+        ],
+        "brown": [
+            "8am",
+            "9pm"
+        ],
+        "music": [
+            "9am",
+            "6pm"
+        ],
+        "finearts": [
+            "9am",
+            "6pm"
+        ]
+    },
+    {
+        "clem": [
+            "9am",
+            "12am"
+        ],
+        "shannon": [
+            "9am",
+            "6pm"
+        ],
+        "brown": [
+            "9am",
+            "6pm"
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    },
+    {
+        "clem": [
+            "10am",
+            "12am"
+        ],
+        "shannon": [
+            "10am",
+            "2am"
+        ],
+        "brown": [
+            "10am",
+            "2am"
+        ],
+        "music": [
+            "1pm",
+            "11pm"
+        ],
+        "finearts": [
+            "1pm",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "24 Hours",
+            null
+        ],
+        "shannon": [
+            "8am",
+            "2am"
+        ],
+        "brown": [
+            "8am",
+            "2am"
+        ],
+        "music": [
+            "9am",
+            "11pm"
+        ],
+        "finearts": [
+            "9am",
+            "11pm"
+        ]
+    },
+    {
+        "clem": [
+            "12am",
+            "12am"
+        ],
+        "shannon": [
+            "8am",
+            "9pm"
+        ],
+        "brown": [
+            "8am",
+            "9pm"
+        ],
+        "music": [
+            "9am",
+            "6pm"
+        ],
+        "finearts": [
+            "9am",
+            "6pm"
+        ]
+    },
+    {
+        "clem": [
+            "9am",
+            "12am"
+        ],
+        "shannon": [
+            "9am",
+            "6pm"
+        ],
+        "brown": [
+            "9am",
+            "6pm"
+        ],
+        "music": [
+            "Closed",
+            null
+        ],
+        "finearts": [
+            "Closed",
+            null
+        ]
+    }
+]
