@@ -1,9 +1,23 @@
 <!doctype html>
 <head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+    </style>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config  = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        body: ['Varela Round']
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 <body>
-    <div class="text-6xl text-center font-medium my-20">
+    <div class="text-6xl text-center font-body my-20">
         <script type="text/javascript">
             let myDate = new Date();
             // get hour value. 
@@ -19,18 +33,18 @@
             //let date = myDate.getDate();
             //let myDay = year + month + date;
             //document.write("\tCurrent time is: " + myTime + "\tEST"+ myDay); 
-            document.write("\tCurrent time is: " + myTime + "\tEST");
+            document.write("Current time is: " + myTime + "\tEST");
         </script>
     </div>
 
-    <div class ="flex flex-col items-center gap-10 text-4xl font-mono">
-        <button class="rounded-lg w-72 h-32 bg-[#06b6d4]">
+    <div class ="flex flex-col items-center gap-10 text-4xl font-body">
+        <button class="hover:shadow-2xl rounded-lg w-96 h-32 bg-[#06b6d4]">
             Dining
         </button>
-        <button class="rounded-lg w-72 h-32 bg-[#06b6d4]">
+        <button class="hover:shadow-2xl rounded-lg w-96 h-32 bg-[#06b6d4]">
             Study
         </button>
-        <button class="rounded-lg w-72 h-32 bg-[#06b6d4]">
+        <button class="hover:shadow-2xl rounded-lg w-96 h-32 bg-[#06b6d4]">
             Other
         </button>
     </div>
