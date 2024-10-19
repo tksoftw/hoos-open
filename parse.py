@@ -58,7 +58,7 @@ def get_all_library_hours(html_text, date):
 
 with open('lib_site.html', 'r', encoding='utf-8') as file:
     contents = file.read()
-    db = []
+    db = {}
     start_day = first_recorded_day
     end_day = datetime(2025, 3, 2)
     day = start_day
@@ -66,11 +66,12 @@ with open('lib_site.html', 'r', encoding='utf-8') as file:
         contents
         all_hours = get_all_library_hours(contents, day)
         # print(hours)
-        db.append(all_hours)
+        str_america_time = day.strftime("%m-%d-%Y")
+        db[str_america_time] = all_hours
         day += timedelta(days=1)
     print(db)
 
-with open('libraries.json', 'w') as file:
+with open('libraries_formatted.json', 'w') as file:
     json.dump(db, file, indent=4)
 
 
