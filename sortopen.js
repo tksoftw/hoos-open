@@ -5,6 +5,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function isOpen(timesString) {
         // Example format: "9AM - 11PM"
+        if (timesString == "Closed") {
+            return false;
+        }
+        if (timesString == "24 Hours") {
+            return true;
+        }
         const [openTime, closeTime] = timesString.split('-');
         const openHour = parseTimeTo24(openTime);
         const closeHour = parseTimeTo24(closeTime, openHour); // Pass openHour for next-day check
@@ -17,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         return currentHour >= openHour && currentHour < closeHour;
     }
-
+    
     function parseTimeTo24(timeStr, openHour = null) {
         const period = timeStr.slice(-2); // AM or PM
         let [hour, minute] = timeStr.slice(0, -2).split(':');
@@ -34,6 +40,8 @@ document.addEventListener('DOMContentLoaded', function () {
         return hour;
     }
 
+    
+
     // Sort buttons based on whether the library is currently open
     libraryButtons.sort((a, b) => {
         const aTimes = a.querySelector('p').innerText;
@@ -46,9 +54,13 @@ document.addEventListener('DOMContentLoaded', function () {
     const container = document.querySelector('.flex');
     libraryButtons.forEach(button => {
         const timesString = button.querySelector('p').innerText;
+        const openIndicator = button.querySelectorAll('.open-indicator');
+        const closedIndicator = button.querySelectorAll('.closed-indicator');
         if (!isOpen(timesString)) {
             // Change background color to grey for closed libraries
             button.style.backgroundColor = 'grey';
+            openIndicator.forEach(elem => elem.classList.add('hidden'));
+            closedIndicator.forEach(elem => elem.classList.remove('hidden'));
         }
 
         container.appendChild(button); // Re-append to container

@@ -26,6 +26,10 @@
         .img-text {
             text-shadow: 1px 1px 2px black;
         }
+        .closed-indicator {
+            position: relative;
+            left: -0.6em
+        }
     </style>
 </head>
 <body>
@@ -53,6 +57,12 @@
                     </p>
                 </div>
             </div>
+            <div class="opacity-80 text-base w-10 h-4 right-7 bottom-2 space-x-15 flex gap-1 absolute">
+            <p class="open-indicator text-emerald-200">Open</p>
+            <img class="open-indicator" src="images/check.svg"></img>
+            <p class="closed-indicator hidden text-neutral-300">Closed</p>
+            <img class="closed-indicator hidden" src="images/x.svg" style="transform: translateY(2.5px) scale(0.9);"></img>
+        </div>
         </button>
 
         <!-- Button 2 with background image -->
@@ -74,6 +84,12 @@
                     </p>
                 </div>
             </div>
+            <div class="opacity-80 text-base w-10 h-4 right-7 bottom-2 space-x-15 flex gap-1 absolute">
+            <p class="open-indicator text-emerald-200">Open</p>
+            <img class="open-indicator" src="images/check.svg"></img>
+            <p class="closed-indicator hidden text-neutral-300">Closed</p>
+            <img class="closed-indicator hidden" src="images/x.svg" style="transform: translateY(2.5px) scale(0.9);"></img>
+        </div>
         </button>
 
         <!-- Button 3 with background image -->
@@ -95,6 +111,12 @@
                     </p>
                 </div>
             </div>
+            <div class="opacity-80 text-base w-10 h-4 right-7 bottom-2 space-x-15 flex gap-1 absolute">
+            <p class="open-indicator text-emerald-200">Open</p>
+            <img class="open-indicator" src="images/check.svg"></img>
+            <p class="closed-indicator hidden text-neutral-300">Closed</p>
+            <img class="closed-indicator hidden" src="images/x.svg" style="transform: translateY(2.5px) scale(0.9);"></img>
+        </div>
         </button>
 
         <!-- Button 4 with background image -->
@@ -116,6 +138,12 @@
                     </p>
                 </div>
             </div>
+            <div class="opacity-80 text-base w-10 h-4 right-7 bottom-2 space-x-15 flex gap-1 absolute">
+            <p class="open-indicator text-emerald-200">Open</p>
+            <img class="open-indicator" src="images/check.svg"></img>
+            <p class="closed-indicator hidden text-neutral-300">Closed</p>
+            <img class="closed-indicator hidden" src="images/x.svg" style="transform: translateY(2.5px) scale(0.9);"></img>
+        </div>
         </button>
 
         <!-- Button 5 with background image -->
@@ -137,9 +165,14 @@
                     </p>
                 </div>
             </div>
+            <!-- Status icon for open/closed -->
+        <div class="opacity-80 text-base w-10 h-4 right-7 bottom-2 space-x-15 flex gap-1 absolute">
+            <p class="open-indicator text-emerald-200">Open</p>
+            <img class="open-indicator" src="images/check.svg"></img>
+            <p class="closed-indicator hidden text-neutral-300">Closed</p>
+            <img class="closed-indicator hidden" src="images/x.svg" style="transform: translateY(2.5px) scale(0.9);"></img>
+        </div>
         </button>
-        <!--test-->
-        <p id="message">This will be replaced by JavaScript.</p>
         <script src="libraries1.js"></script>
     </div>
 <script src="sortopen.js"></script>

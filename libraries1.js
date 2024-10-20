@@ -13,11 +13,11 @@ async function loadLibraryTimes() {
 
     if (libraryTimes) {
       // Update the HTML elements with the times
-      document.getElementById('clem-times').innerHTML = libraryTimes.clem[0] == "Closed" | libraryTimes.clem[0] == "24H" ? libraryTimes.clem[0] : (libraryTimes.clem[0] + "-<br>" + libraryTimes.clem[1]);
-      document.getElementById('shannon-times').innerHTML = libraryTimes.shannon[0] == "Closed" | libraryTimes.shannon[0] == "24H" ? libraryTimes.shannon[0] : (libraryTimes.shannon[0] + "-<br>" + libraryTimes.shannon[1]);
-      document.getElementById('brown-times').innerHTML = libraryTimes.brown[0] == "Closed" | libraryTimes.brown[0] == "24H" ? libraryTimes.brown[0] : (libraryTimes.brown[0] + "-<br>" + libraryTimes.brown[1]);
-      document.getElementById('music-times').innerHTML = libraryTimes.music[0] == "Closed" | libraryTimes.music[0] == "24H" ? libraryTimes.music[0] : (libraryTimes.music[0] + "-<br>" + libraryTimes.music[1]);
-      document.getElementById('finearts-times').innerHTML = libraryTimes.finearts[0] == "Closed" | libraryTimes.finearts[0] == "24H" ? libraryTimes.finearts[0] : (libraryTimes.finearts[0] + "-<br>" + libraryTimes.finearts[1]);
+      document.getElementById('clem-times').innerHTML = libraryTimes.clem[0] == "Closed" | libraryTimes.clem[0] == "24 Hours" ? libraryTimes.clem[0] : (libraryTimes.clem[0] + "-<br>" + libraryTimes.clem[1]);
+      document.getElementById('shannon-times').innerHTML = libraryTimes.shannon[0] == "Closed" | libraryTimes.shannon[0] == "24 Hours" ? libraryTimes.shannon[0] : (libraryTimes.shannon[0] + "-<br>" + libraryTimes.shannon[1]);
+      document.getElementById('brown-times').innerHTML = libraryTimes.brown[0] == "Closed" | libraryTimes.brown[0] == "24 Hours" ? libraryTimes.brown[0] : (libraryTimes.brown[0] + "-<br>" + libraryTimes.brown[1]);
+      document.getElementById('music-times').innerHTML = libraryTimes.music[0] == "Closed" | libraryTimes.music[0] == "24 Hours" ? libraryTimes.music[0] : (libraryTimes.music[0] + "-<br>" + libraryTimes.music[1]);
+      document.getElementById('finearts-times').innerHTML = libraryTimes.finearts[0] == "Closed" | libraryTimes.finearts[0] == "24 Hours" ? libraryTimes.finearts[0] : (libraryTimes.finearts[0] + "-<br>" + libraryTimes.finearts[1]);
     } else {
       console.error('No data available for today');
     }
