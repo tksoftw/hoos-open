@@ -14,6 +14,19 @@
                 }
             }
         }
+        function openWindow(building_identifier)
+        {
+            urls = {
+                'clem': "https://beta.maps.apple.com/?auid=9044103511860160349",
+                'shannon': "https://beta.maps.apple.com/?auid=7160248464958647938",
+                'brown': "https://beta.maps.apple.com/?auid=719085178779032158",
+                'music': "https://beta.maps.apple.com/?auid=2653232286777647929",
+                'finearts': "https://beta.maps.apple.com/?auid=13107432633237827186"
+            }
+            url = urls[building_identifier];
+            window.open(url, '_blank');
+            window.focus();
+        }
     </script>
     <style>
         .img-wrap {
@@ -39,7 +52,7 @@
 
     <div class="flex flex-col items-center gap-10 pb-20 text-4xl font-body text-white">
         <!-- Button 1 with background image -->
-        <button class="bg-[#06b6d4] hover:shadow-2xl rounded-lg w-96 h-32 overflow-hidden relative flex items-center justify-between p-4">
+        <button onclick="openWindow('clem')" class="bg-[#06b6d4] hover:shadow-2xl rounded-lg w-96 h-32 overflow-hidden relative flex items-center justify-between p-4">
             <!-- Background Image -->
             <div class="img-wrap absolute inset-0" style="background-image: url(images/clem.jpg);"></div>
             <!-- Flex container to divide the text -->
@@ -66,7 +79,7 @@
         </button>
 
         <!-- Button 2 with background image -->
-        <button class="bg-[#06b6d4] hover:shadow-2xl rounded-lg w-96 h-32 overflow-hidden relative flex items-center justify-between p-4">
+        <button onclick="openWindow('shannon')" class="bg-[#06b6d4] hover:shadow-2xl rounded-lg w-96 h-32 overflow-hidden relative flex items-center justify-between p-4">
             <!-- Background Image -->
             <div class="img-wrap absolute inset-0" style="background-image: url(images/shannon.jpg);"></div>
             <!-- Flex container to divide the text -->
@@ -93,7 +106,7 @@
         </button>
 
         <!-- Button 3 with background image -->
-        <button class="bg-[#06b6d4] hover:shadow-2xl rounded-lg w-96 h-32 overflow-hidden relative flex items-center justify-between p-4">
+        <button onclick="openWindow('brown')" class="bg-[#06b6d4] hover:shadow-2xl rounded-lg w-96 h-32 overflow-hidden relative flex items-center justify-between p-4">
             <!-- Background Image -->
             <div class="img-wrap absolute inset-0" style="background-image: url(images/brown.jpg);"></div>
             <!-- Flex container to divide the text -->
@@ -120,7 +133,7 @@
         </button>
 
         <!-- Button 4 with background image -->
-        <button class="bg-[#06b6d4] hover:shadow-2xl rounded-lg w-96 h-32 overflow-hidden relative flex items-center justify-between p-4">
+        <button onclick="openWindow('music')" class="bg-[#06b6d4] hover:shadow-2xl rounded-lg w-96 h-32 overflow-hidden relative flex items-center justify-between p-4">
             <!-- Background Image -->
             <div class="img-wrap absolute inset-0" style="background-image: url(images/music.jpg);"></div>
             <!-- Flex container to divide the text -->
@@ -147,7 +160,7 @@
         </button>
 
         <!-- Button 5 with background image -->
-        <button class="bg-[#06b6d4] hover:shadow-2xl rounded-lg w-96 h-32 overflow-hidden relative flex items-center justify-between p-4">
+        <button onclick="openWindow('finearts')" class="bg-[#06b6d4] hover:shadow-2xl rounded-lg w-96 h-32 overflow-hidden relative flex items-center justify-between p-4">
             <!-- Background Image -->
             <div class="img-wrap absolute inset-0" style="background-image: url(images/finearts.jpg);"></div>
             <!-- Flex container to divide the text -->
@@ -172,6 +185,9 @@
             <p class="closed-indicator hidden text-neutral-300">Closed</p>
             <img class="closed-indicator hidden" src="images/x.svg" style="transform: translateY(2.5px) scale(0.9);"></img>
         </div>
+        </button>
+        <button onclick="location.href='index.html';" id="backbutton" class="bg-zinc-500 hover:bg-zinc-400 text-black font-bold py-3 px-8 rounded-lg shadow-lg transition-all duration-900 ease-in-out transform hover:scale-105">
+            Back
         </button>
         <script src="libraries1.js"></script>
     </div>

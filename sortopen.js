@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
     const now = new Date();
     const currentHour = now.getHours();
-    const libraryButtons = Array.from(document.querySelectorAll('button'));
+    const backButton = document.querySelector('#backbutton');
+    const libraryButtons = Array.from(document.querySelectorAll('button')).filter(button => button.id !== 'backbutton');
 
     function isOpen(timesString) {
         // Example format: "9AM - 11PM"
@@ -65,4 +66,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
         container.appendChild(button); // Re-append to container
     });
+    
+    // After appending all library buttons, append the back button at the bottom
+    if (backButton) {
+        container.appendChild(backButton);
+    }
 });
