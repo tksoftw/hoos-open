@@ -2,6 +2,10 @@
 <head>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+        body {
+            margin: 0;
+            padding: 0;
+        }
     </style>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -19,110 +23,50 @@
     </body>
 </head>
 <body>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    animation: {
-                    'infinite-scroll': 'infinite-scroll 25s linear infinite',
-                },
-                keyframes: {
-                    'infinite-scroll': {
-                        from: { transform: 'translateX(0)' },
-                        to: { transform: 'translateX(-100%)' },
-                    }
-                }
-                },
-            },
-        }
-    </script>
-    <div class="w-full inline-flex flex-nowrap">
-        <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 animate-infinite-scroll">
-            <li>
-                <p>Nothing is open</p>
-            </li>
-            <li>
-                <p>Nothing is open</p>
-            </li>
-            <li>
-                <p>Nothing is open</p>
-            </li>
-            <li>
-                <p>Nothing is open</p>
-            </li>
-            <li>
-                <p>Nothing is open</p>
-            </li>
-            <li>
-                <p>Nothing is open</p>
-            </li>
-            <li>
-                <p>Nothing is open</p>
-            </li>
-            <li>
-                <p>Nothing is open</p>
-            </li>
-        </ul>
-        <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 animate-infinite-scroll" aria-hidden="true">
-            <li>
-                <p>Nothing is open</p>
-            </li>
-            <li>
-                <p>Nothing is open</p>
-            </li>
-            <li>
-                <p>Nothing is open</p>
-            </li>
-            <li>
-                <p>Nothing is open</p>
-            </li>
-            <li>
-                <p>Nothing is open</p>
-            </li>
-            <li>
-                <p>Nothing is open</p>
-            </li>
-            <li>
-                <p>Nothing is open</p>
-            </li>
-            <li>
-                <p>Nothing is open</p>
-            </li>
-        </ul>
-    </div>
+    <!--background picture-->
+    <div class="bg-cover bg-center h-screen" 
+         style="background-image: url('images/homepage.jpg'); background-position: top;">
+        
+        <!--current time-->
+        <div class="text-9xl text-center font-body font-black text-transparent">
+            <script type="text/javascript">
+                let myDate = new Date();
+                // get hour value. 
+                let hours = myDate.getHours();
+                let ampm = hours >= 12 ? 'PM' : 'AM';
+                hours = hours % 12;
+                hours = hours ? hours : 12;
+                let minutes = myDate.getMinutes();
+                minutes = minutes < 10 ? '0' + minutes : minutes;
+                let myTime = hours + ":" + minutes + " " + ampm
+                //let year = myDate.getFullYear();
+                //let month = myDate.getMonth() + 1;
+                //let date = myDate.getDate();
+                //let myDay = year + month + date;
+                //document.write("\tCurrent time is: " + myTime + "\tEST"+ myDay); 
+                document.write(myTime);
+            </script>
+        </div>
 
+         <div class="bg-cover bg-center h-screen"
+         style="background-color: white; background-position: top;">
 
-    <div class="text-6xl text-center font-body my-20">
-        <script type="text/javascript">
-            let myDate = new Date();
-            // get hour value. 
-            let hours = myDate.getHours();
-            let ampm = hours >= 12 ? 'PM' : 'AM';
-            hours = hours % 12;
-            hours = hours ? hours : 12;
-            let minutes = myDate.getMinutes();
-            minutes = minutes < 10 ? '0' + minutes : minutes;
-            let myTime = hours + ":" + minutes + " " + ampm
-            //let year = myDate.getFullYear();
-            //let month = myDate.getMonth() + 1;
-            //let date = myDate.getDate();
-            //let myDay = year + month + date;
-            //document.write("\tCurrent time is: " + myTime + "\tEST"+ myDay); 
-            document.write("Current time is: " + myTime + "\tEST");
-        </script>
+    
+        <!--buttons-->
+        <div class ="flex flex-col items-center gap-10 text-4xl font-body">
+            <button class="hover:shadow-2xl rounded-lg w-96 h-32 bg-[#06b6d4]">
+                Dining
+            </button>
+            <button class="hover:shadow-2xl rounded-lg w-96 h-32 bg-[#06b6d4]">
+                Study
+            </button>
+            <button class="hover:shadow-2xl rounded-lg w-96 h-32 bg-[#06b6d4]">
+                Other
+            </button>
+        </div>
     </div>
-
-    <div class ="flex flex-col items-center gap-10 text-4xl font-body">
-        <button class="hover:shadow-2xl rounded-lg w-96 h-32 bg-[#06b6d4]">
-            Dining
-        </button>
-        <button class="hover:shadow-2xl rounded-lg w-96 h-32 bg-[#06b6d4]">
-            Study
-        </button>
-        <button class="hover:shadow-2xl rounded-lg w-96 h-32 bg-[#06b6d4]">
-            Other
-        </button>
     </div>
+    
 
 </body>
 </html>
