@@ -59,13 +59,36 @@ function openWindow(building_identifier) {
     }
 }
 
+
+function addIdsToButtons() {
+  // Find all <p> elements whose id ends with '-times'
+  const timeElements = document.querySelectorAll('p[id$="-times"]');
+  
+  timeElements.forEach((timeElement) => {
+    // Extract the base id (e.g., 'clem' from 'clem-times')
+    const baseId = timeElement.id.replace('-times', '');
+    
+    // Find the closest button to this <p> element
+    const parentButton = timeElement.closest('button');
+    
+    if (parentButton) {
+      // Assign the base id to the button
+      parentButton.id = baseId;
+      console.log(`Assigned ID "${baseId}" to parent button.`);
+    } else {
+      console.error(`No parent button found for ${timeElement.id}`);
+    }
+  });
+}
+
 // Call the function when the DOM content is loaded
 document.addEventListener('DOMContentLoaded', function() {
     loadLibraryTimes();
+    addIdsToButtons();
 
     // Dynamically attach event listeners based on the keys of the `urls` object
     Object.keys(urls).forEach(key => {
-        const button = document.querySelector(`button#${key}-times`);
+        const button = document.querySelector(`button#${key}`);
         if (button) {
             button.addEventListener('click', () => openWindow(key));
         } else {

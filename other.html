@@ -16,18 +16,6 @@
                 }
             }
         }
-        function openWindow(building_identifier)
-        {
-            urls = {
-                'admission': "https://beta.maps.apple.com/?auid=16672117963129791741",
-                'health': "https://beta.maps.apple.com/?auid=9053712993671388428",
-                'monroe': "https://beta.maps.apple.com/?auid=17758654898960218364",
-                'afc': "https://beta.maps.apple.com/?auid=792292121517041021"
-            }
-            url = urls[building_identifier];
-            window.open(url, '_blank');
-            window.focus();
-        }
     </script>
     <style>
         .closed-indicator{
@@ -52,7 +40,7 @@
 
     <div class="flex flex-col items-center gap-10 pb-20 text-4xl font-body text-white">
         <!-- Button 1 with background image -->
-        <button onclick="openWindow('admission');" class="bg-[#06b6d4] hover:shadow-2xl rounded-lg w-96 h-32 overflow-hidden relative flex items-center justify-between p-4">
+        <button class="bg-[#06b6d4] hover:shadow-2xl rounded-lg w-96 h-32 overflow-hidden relative flex items-center justify-between p-4">
             <!-- Background Image -->
             <div class="img-wrap absolute inset-0" style="background-image: url(images/admissions.jpg);"></div>
             <!-- Flex container to divide the text -->

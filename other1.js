@@ -11,30 +11,88 @@ function loadJSONSync(filePath) {
   }
 }
 
+// Example URLs for the facilities (add real URLs if needed)
+const urls = {
+    'admission': "https://example.com/admission",
+    'health': "https://example.com/health",
+    'monroe': "https://example.com/monroe",
+    'afc': "https://example.com/afc"
+};
+
 function loadFacilitiesTimes() {
     try {
-      const data = loadJSONSync('database/other.json'); // Fetch the JSON data
-      
-      const today = new Date();
-      const formattedToday = `${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}-${today.getFullYear()}`;
-  
-      console.log("Today's date:", formattedToday);
-  
-      const facilitiesTimes = data[formattedToday]; // Get the open/close times for today's date
-  
-      if (facilitiesTimes) {
-        // Update the HTML elements with the times
-        document.getElementById('admission-times').innerHTML = facilitiesTimes.admission[0] == "Closed" || facilitiesTimes.admission[0] == "24 Hours" ? facilitiesTimes.admission[0] : (facilitiesTimes.admission[0] + "-<br>" + facilitiesTimes.admission[1]);
-        document.getElementById('health-times').innerHTML = facilitiesTimes.health[0] == "Closed" || facilitiesTimes.health[0] == "24 Hours" ? facilitiesTimes.health[0] : (facilitiesTimes.health[0] +  "-<br>" + facilitiesTimes.health[1]);
-        document.getElementById('monroe-times').innerHTML = facilitiesTimes.monroe[0] == "Closed" || facilitiesTimes.monroe[0] == "24 Hours" ? facilitiesTimes.monroe[0] : (facilitiesTimes.monroe[0] + "-<br>" + facilitiesTimes.monroe[1]);
-        document.getElementById('afc-times').innerHTML = facilitiesTimes.afc[0] == "Closed" || facilitiesTimes.afc[0] == "24 Hours" ? facilitiesTimes.afc[0] : (facilitiesTimes.afc[0] + "-<br>" + facilitiesTimes.afc[1]);
-      } else {
-        console.error('No data available for today');
-      }
-    } catch (error) {
-      console.error('Error loading facilities times:', error);
-    }
-  }
+        const data = loadJSONSync('database/other.json'); // Fetch the JSON data
+        
+        const today = new Date();
+        const formattedToday = `${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}-${today.getFullYear()}`;
 
-loadFacilitiesTimes()
-  
+        console.log("Today's date:", formattedToday);
+
+        const facilitiesTimes = data[formattedToday]; // Get the open/close times for today's date
+
+        if (facilitiesTimes) {
+            // Iterate over each facility in the URLs object to dynamically set times
+            Object.keys(facilityUrls).forEach(facility => {
+                const times = facilitiesTimes[facility];
+                const elementId = `${facility}-times`;
+                if (times) {
+                    document.getElementById(elementId).innerHTML =
+                        times[0] === "Closed" || times[0] === "24 Hours" 
+                        ? times[0]
+                        : `${times[0]}-<br>${times[1]}`;
+                }
+            });
+        } else {
+            console.error('No data available for today');
+        }
+    } catch (error) {
+        console.error('Error loading facilities times:', error);
+    }
+}
+
+function openFacilityWindow(facility_identifier) {
+    const url = facilityUrls[facility_identifier];
+    if (url) {
+        window.open(url, '_blank');
+        window.focus();
+    } else {
+        console.error("No URL found for facility identifier:", facility_identifier);
+    }
+}
+
+function addFacilityIdsToButtons() {
+    // Find all <p> elements whose id ends with '-times'
+    const timeElements = document.querySelectorAll('p[id$="-times"]');
+    
+    timeElements.forEach((timeElement) => {
+        // Extract the base id (e.g., 'admission' from 'admission-times')
+        const baseId = timeElement.id.replace('-times', '');
+        
+        // Find the closest button to this <p> element
+        const parentButton = timeElement.closest('button');
+        
+        if (parentButton) {
+            // Assign the base id to the button
+            parentButton.id = baseId;
+            console.log(`Assigned ID "${baseId}" to parent button.`);
+        } else {
+            console.error(`No parent button found for ${timeElement.id}`);
+        }
+    });
+}
+
+// Call the function when the DOM content is loaded
+document.addEventListener('DOMContentLoaded', function() {
+    loadFacilitiesTimes();
+    addFacilityIdsToButtons();
+
+    // Dynamically attach event listeners based on the keys of the `urls` object
+    Object.keys(urls).forEach(key => {
+        const button = document.querySelector(`button#${key}`);
+        if (button) {
+            button.addEventListener('click', () => openFacilityWindow(key));
+        } else {
+            console.error(`Button for ${key} not found`);
+        }
+    });
+});
