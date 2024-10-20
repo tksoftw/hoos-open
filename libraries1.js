@@ -11,7 +11,15 @@ function loadJSONSync(filePath) {
   }
 }
 
- function loadLibraryTimes() {
+const urls = {
+    'clem': "https://maps.app.goo.gl/cX5yiY2pQCR2hfGY6",
+    'shannon': "https://maps.app.goo.gl/Ndq5MhRuRW1QUC5k6",
+    'brown': "https://maps.app.goo.gl/mUqfL1SQTRZc7kr28",
+    'music': "https://maps.app.goo.gl/48cEfwoz8r3G9NkX7",
+    'finearts': "https://maps.app.goo.gl/FqiXN1jjoaeUGSCh9"
+};
+
+function loadLibraryTimes() {
   try {
     const data = loadJSONSync('database/libraries_formatted.json'); // Fetch the JSON data
     
@@ -22,23 +30,46 @@ function loadJSONSync(filePath) {
 
     const libraryTimes = data[formattedToday]; // Get the open/close times for today's date
 
-
     if (libraryTimes) {
-      // Update the HTML elements with the times
-      document.getElementById('clem-times').innerHTML = libraryTimes.clem[0] == "Closed" || libraryTimes.clem[0] == "24 Hours" ? libraryTimes.clem[0] : (libraryTimes.clem[0] + "-<br>" + libraryTimes.clem[1]);
-      document.getElementById('shannon-times').innerHTML = libraryTimes.shannon[0] == "Closed" || libraryTimes.shannon[0] == "24 Hours" ? libraryTimes.shannon[0] : (libraryTimes.shannon[0] + "-<br>" + libraryTimes.shannon[1]);
-      document.getElementById('brown-times').innerHTML = libraryTimes.brown[0] == "Closed" || libraryTimes.brown[0] == "24 Hours" ? libraryTimes.brown[0] : (libraryTimes.brown[0] + "-<br>" + libraryTimes.brown[1]);
-      document.getElementById('music-times').innerHTML = libraryTimes.music[0] == "Closed" || libraryTimes.music[0] == "24 Hours" ? libraryTimes.music[0] : (libraryTimes.music[0] + "-<br>" + libraryTimes.music[1]);
-      document.getElementById('finearts-times').innerHTML = libraryTimes.finearts[0] == "Closed" || libraryTimes.finearts[0] == "24 Hours" ? libraryTimes.finearts[0] : (libraryTimes.finearts[0] + "-<br>" + libraryTimes.finearts[1]);
+      Object.keys(urls).forEach(library => {
+        const times = libraryTimes[library];
+        const elementId = `${library}-times`;
+        if (times) {
+          document.getElementById(elementId).innerHTML =
+            times[0] === "Closed" || times[0] === "24 Hours" 
+              ? times[0] 
+              : `${times[0]}-<br>${times[1]}`;
+        }
+      });
     } else {
       console.error('No data available for today');
     }
   } catch (error) {
     console.error('Error loading library times:', error);
   }
-  //console.log('hi')
+}
+
+function openWindow(building_identifier) {
+    const url = urls[building_identifier];
+    if (url) {
+        window.open(url, '_blank');
+        window.focus();
+    } else {
+        console.error("No URL found for building identifier:", building_identifier);
+    }
 }
 
 // Call the function when the DOM content is loaded
-document.addEventListener('DOMContentLoaded', loadLibraryTimes);
+document.addEventListener('DOMContentLoaded', function() {
+    loadLibraryTimes();
 
+    // Dynamically attach event listeners based on the keys of the `urls` object
+    Object.keys(urls).forEach(key => {
+        const button = document.querySelector(`button#${key}-times`);
+        if (button) {
+            button.addEventListener('click', () => openWindow(key));
+        } else {
+            console.error(`Button for ${key} not found`);
+        }
+    });
+});
