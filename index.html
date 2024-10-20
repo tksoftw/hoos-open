@@ -29,6 +29,7 @@
         <!--current time, transparent text moved down with padding-->
         <div class="text-7xl text-center font-body font-black bg-clip-text bg-cover opacity-20 pt-20">
             <script type="text/javascript">
+                let days_of_the_week = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
                 let myDate = new Date();
                 // get hour value. 
                 let hours = myDate.getHours();
@@ -38,7 +39,7 @@
                 let minutes = myDate.getMinutes();
                 minutes = minutes < 10 ? '0' + minutes : minutes;
                 let myTime = hours + ":" + minutes + " " + ampm;
-                document.write('it is currently<br>' + myTime);
+                document.write(days_of_the_week[myDate.getDay()] + '<br>' + myTime);
             </script>
         </div>
 

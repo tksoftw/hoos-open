@@ -1,5 +1,6 @@
 import json
 from datetime import datetime, timedelta
+from req import update_dine_html
 
 first_recorded_day = datetime(2024, 10, 13)
 # days_of_the_week = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
@@ -83,7 +84,7 @@ def get_dining_hours(html_text: str):
     return d
     
 
-
+update_dine_html()
 
 with open('dine_site.html', 'r', encoding='utf-8') as file:
     contents = file.read()

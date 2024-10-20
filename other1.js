@@ -1,7 +1,19 @@
-async function loadFacilitiesTimes() {
+function loadJSONSync(filePath) {
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", filePath, false); // 'false' makes the request synchronous
+  xhr.send(null);
+
+  if (xhr.status === 200) {
+      return JSON.parse(xhr.responseText);
+  } else {
+      console.error("Failed to load file:", xhr.status);
+      return null;
+  }
+}
+
+function loadFacilitiesTimes() {
     try {
-      const response = await fetch('database/other.json'); // Fetch the JSON data
-      const data = await response.json(); // Parse the JSON
+      const data = loadJSONSync('database/other.json'); // Fetch the JSON data
       
       const today = new Date();
       const formattedToday = `${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}-${today.getFullYear()}`;
@@ -12,10 +24,10 @@ async function loadFacilitiesTimes() {
   
       if (facilitiesTimes) {
         // Update the HTML elements with the times
-        document.getElementById('admission-times').innerHTML = facilitiesTimes.admission[0] == "Closed" | facilitiesTimes.admission[0] == "24H" ? facilitiesTimes.admission[0] : (facilitiesTimes.admission[0] + "-<br>" + facilitiesTimes.admission[1]);
-        document.getElementById('health-times').innerHTML = facilitiesTimes.health[0] == "Closed" | facilitiesTimes.health[0] == "24H" ? facilitiesTimes.health[0] : (facilitiesTimes.health[0] + "-<br>" + facilitiesTimes.health[1]);
-        document.getElementById('monroe-times').innerHTML = facilitiesTimes.monroe[0] == "Closed" | facilitiesTimes.monroe[0] == "24H" ? facilitiesTimes.monroe[0] : (facilitiesTimes.monroe[0] + "-<br>" + facilitiesTimes.monroe[1]);
-        document.getElementById('afc-times').innerHTML = facilitiesTimes.afc[0] == "Closed" | facilitiesTimes.afc[0] == "24H" ? facilitiesTimes.afc[0] : (facilitiesTimes.afc[0] + "-<br>" + facilitiesTimes.afc[1]);
+        document.getElementById('admission-times').innerHTML = facilitiesTimes.admission[0] == "Closed" || facilitiesTimes.admission[0] == "24 Hours" ? facilitiesTimes.admission[0] : (facilitiesTimes.admission[0] + "-<br>" + facilitiesTimes.admission[1]);
+        document.getElementById('health-times').innerHTML = facilitiesTimes.health[0] == "Closed" || facilitiesTimes.health[0] == "24 Hours" ? facilitiesTimes.health[0] : (facilitiesTimes.health[0] +  "-<br>" + facilitiesTimes.health[1]);
+        document.getElementById('monroe-times').innerHTML = facilitiesTimes.monroe[0] == "Closed" || facilitiesTimes.monroe[0] == "24 Hours" ? facilitiesTimes.monroe[0] : (facilitiesTimes.monroe[0] + "-<br>" + facilitiesTimes.monroe[1]);
+        document.getElementById('afc-times').innerHTML = facilitiesTimes.afc[0] == "Closed" || facilitiesTimes.afc[0] == "24 Hours" ? facilitiesTimes.afc[0] : (facilitiesTimes.afc[0] + "-<br>" + facilitiesTimes.afc[1]);
       } else {
         console.error('No data available for today');
       }
@@ -23,7 +35,6 @@ async function loadFacilitiesTimes() {
       console.error('Error loading facilities times:', error);
     }
   }
-  
-  // Call the function when the DOM content is loaded
-  document.addEventListener('DOMContentLoaded', loadFacilitiesTimes);
+
+loadFacilitiesTimes()
   
