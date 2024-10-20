@@ -13,10 +13,10 @@ function loadJSONSync(filePath) {
 
 // Example URLs for the facilities (add real URLs if needed)
 const urls = {
-    'admission': "https://example.com/admission",
-    'health': "https://example.com/health",
-    'monroe': "https://example.com/monroe",
-    'afc': "https://example.com/afc"
+    'admission': "https://maps.app.goo.gl/CWuhYenpFw7bMa3y6",
+    'health': "https://maps.app.goo.gl/uPUX86tqY7KEY3Wh7",
+    'monroe': "https://maps.app.goo.gl/TKT8nWpeegk8MidAA",
+    'afc': "https://maps.app.goo.gl/jZzfYJZ3zM7EyHfL7"
 };
 
 function loadFacilitiesTimes() {
@@ -32,7 +32,7 @@ function loadFacilitiesTimes() {
 
         if (facilitiesTimes) {
             // Iterate over each facility in the URLs object to dynamically set times
-            Object.keys(facilityUrls).forEach(facility => {
+            Object.keys(urls).forEach(facility => {
                 const times = facilitiesTimes[facility];
                 const elementId = `${facility}-times`;
                 if (times) {
@@ -51,7 +51,7 @@ function loadFacilitiesTimes() {
 }
 
 function openFacilityWindow(facility_identifier) {
-    const url = facilityUrls[facility_identifier];
+    const url = urls[facility_identifier];
     if (url) {
         window.open(url, '_blank');
         window.focus();
