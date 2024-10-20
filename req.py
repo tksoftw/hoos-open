@@ -1,6 +1,6 @@
 import requests
 
-url = "https://cal.lib.virginia.edu/ajax/space/times"
+url = "https://virginia.campusdish.com/en/locationsandmenus/"
 headers = {
     "accept": "application/json, text/javascript, */*; q=0.01",
     "accept-language": "en-US,en;q=0.9",
@@ -35,4 +35,5 @@ data = {
 
 response = requests.post(url, headers=headers, data=data)
 
-print(response.text)
+with open('dine_site.html', 'w', encoding='utf-8',) as file:
+    file.write(response.text)
