@@ -1,4 +1,5 @@
 <!doctype html>
+<html>
 <head>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
@@ -19,54 +20,40 @@
             }
         }
     </script>
-    <body>
-    </body>
 </head>
 <body>
-    <!--background picture-->
+    <!--background picture with a subtle gradient-->
     <div class="bg-cover bg-center h-screen" 
-         style="background-image: url('images/homepage.jpg'); background-position: top;">
+         style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/homepage.jpg'); background-position: top;">
         
-        <!--current time-->
-        <div class="text-9xl text-center font-body font-black text-transparent">
+        <!--current time, transparent text moved down with padding-->
+        <div class="text-7xl text-center font-body font-black bg-clip-text bg-cover opacity-20 pt-20">
             <script type="text/javascript">
                 let myDate = new Date();
                 // get hour value. 
                 let hours = myDate.getHours();
-                let ampm = hours >= 12 ? 'PM' : 'AM';
+                let ampm = hours >= 12 ? 'p.m.' : 'a.m.';
                 hours = hours % 12;
                 hours = hours ? hours : 12;
                 let minutes = myDate.getMinutes();
                 minutes = minutes < 10 ? '0' + minutes : minutes;
-                let myTime = hours + ":" + minutes + " " + ampm
-                //let year = myDate.getFullYear();
-                //let month = myDate.getMonth() + 1;
-                //let date = myDate.getDate();
-                //let myDay = year + month + date;
-                //document.write("\tCurrent time is: " + myTime + "\tEST"+ myDay); 
-                document.write(myTime);
+                let myTime = hours + ":" + minutes + " " + ampm;
+                document.write('it is currently \n' + myTime);
             </script>
         </div>
 
-         <div class="bg-cover bg-center h-screen"
-         style="background-color: white; background-position: top;">
-
-    
         <!--buttons-->
-        <div class ="flex flex-col items-center gap-10 text-4xl font-body">
-            <button class="hover:shadow-2xl rounded-lg w-96 h-32 bg-[#06b6d4]">
-                Dining
+        <div class="flex flex-col items-center gap-10 text-4xl font-body mt-10 py-10">
+            <button onclick="location.href='dining.html'" class="hover:shadow-2xl rounded-lg w-96 h-32 bg-stone-400 backdrop-blur bg-opacity-20">
+                dining
             </button>
-            <button class="hover:shadow-2xl rounded-lg w-96 h-32 bg-[#06b6d4]">
-                Study
+            <button onclick="location.href='libraries.html'" class="hover:shadow-2xl rounded-lg w-96 h-32 bg-stone-400 backdrop-blur bg-opacity-20">
+                study
             </button>
-            <button class="hover:shadow-2xl rounded-lg w-96 h-32 bg-[#06b6d4]">
-                Other
+            <button onclick="location.href='other.html'" class="hover:shadow-2xl rounded-lg w-96 h-32 bg-stone-300 backdrop-blur bg-opacity-20">
+                other
             </button>
         </div>
     </div>
-    </div>
-    
-
 </body>
 </html>
