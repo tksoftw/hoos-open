@@ -21,10 +21,9 @@
         }
     </script>
 </head>
-<body>
+<body style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/homepage.jpg'); background-position: top;">
     <!--background picture with a subtle gradient-->
-    <div class="bg-cover bg-center h-screen" 
-         style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/homepage.jpg'); background-position: top;">
+    <div class="bg-cover bg-center h-screen flex flex-col justify-between">
         
         <!--current time, transparent text moved down with padding-->
         <div class="text-7xl text-center font-body font-black bg-clip-text bg-cover opacity-20 pt-20">
@@ -44,7 +43,7 @@
         </div>
 
         <!--buttons-->
-        <div class="flex flex-col items-center gap-10 text-4xl font-body mt-10 py-10">
+        <div class="flex flex-col items-center gap-10 text-4xl font-body py-10">
             <button onclick="location.href='dining.html'" class="hover:shadow-2xl rounded-lg w-96 h-32 bg-stone-400 backdrop-blur bg-opacity-20">
                 dining
             </button>
