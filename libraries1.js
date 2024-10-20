@@ -30,5 +30,3 @@ async function loadLibraryTimes() {
 // Call the function when the DOM content is loaded
 document.addEventListener('DOMContentLoaded', loadLibraryTimes);
 
-document.getElementById('message').textContent = "Libraries are open from 9AM to 5PM";
-
