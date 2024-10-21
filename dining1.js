@@ -114,7 +114,9 @@ function updateLocations() {
             location.DisplayName = 'Runk Dining Room';
         } else if (location.Id == 6011) {
             location.DisplayName = '1819 Supply @ Newcomb';
-        } 
+        } else if (location.Id == 5433) {
+            location.DisplayName = 'Food Trucks'
+        }
 
         // Handle hours of operation
         if (location.HoursOfOperations == null) {
