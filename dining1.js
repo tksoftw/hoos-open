@@ -120,7 +120,10 @@ function updateLocations() {
         if (location.HoursOfOperations == null) {
             location.HoursOfOperations = "Closed";
         } else {
-            location.HoursOfOperations = location.HoursOfOperations.replace('All Day', '')
+            location.HoursOfOperations = location.HoursOfOperations
+                .replace('All Day', '')
+                .replace('Lunch', '')
+                .replace('Dinner', '')
                 .replaceAll(':00', ''); // Remove :00s
             const hourStartAndEnd = location.HoursOfOperations.split('-');
             if (hourStartAndEnd[0].trim() == hourStartAndEnd[1].trim()) {
