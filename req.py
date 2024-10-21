@@ -1,7 +1,7 @@
 import requests
 
 def update_dine_html():
-    url = "https://virginia.campusdish.com/en/locationsandmenus"
+    url = "https://virginia.campusdish.com/en/locationsandmenus/"
     headers = {
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
         "Accept-Language": "en-US,en;q=0.9",
@@ -20,5 +20,5 @@ def update_dine_html():
 
     response = requests.get(url, headers=headers)
 
-    with open('dine_site2.html', 'w', encoding='utf-8',) as file:
+    with open('dine_site.html', 'w', encoding='utf-8',) as file:
         file.write(response.text)

@@ -92,6 +92,7 @@ with open('dine_site.html', 'r', encoding='utf-8') as file:
 
 with open('database/dining.json', 'w') as file:
     json.dump(d, file, indent=4)
+    print('updated dine json!')
 
 
 
