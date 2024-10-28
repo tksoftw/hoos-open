@@ -309,13 +309,13 @@
             "DisplayName": "Crossroads Food Court and Convenience Store",
             "LocationUrl": "/LocationsAndMenus/CrossroadsFoodCourt",
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/Burrito-Theory.ashx?mh=270&mw=540&hash=12938102061DB38A01E173BFC775AAC27C17918F",
-            "IsOpenNow": false,
+            "IsOpenNow": true,
             "IsFoodOrderingAvailable": false,
             "IsFoodOrderingMode": false,
             "OpensAt": null,
             "Address": "525 McCormick Rd",
             "GlobalAddress": "Charlottesville, VA 22903",
-            "HoursOfOperations": null,
+            "HoursOfOperations": "All Day 11:00am - 11:00pm",
             "LocationGroups": [
                 "Food Courts"
             ],
@@ -919,7 +919,7 @@
             "OpensAt": null,
             "Address": "2171 Ivy Road Suite 1",
             "GlobalAddress": "Charlottesville, VA 22903",
-            "HoursOfOperations": "All Day 10:30am - 1:00am",
+            "HoursOfOperations": "All Day 10:30am - 12:00am",
             "LocationGroups": [
                 "Restaurants"
             ],
@@ -953,7 +953,7 @@
             "OpensAt": null,
             "Address": "525 McCormick Road",
             "GlobalAddress": "Charlottesville, VA 22903",
-            "HoursOfOperations": "All Day 11:00am - 12:00am",
+            "HoursOfOperations": "All Day 11:00am - 11:00pm",
             "LocationGroups": [
                 "Food Courts"
             ],
@@ -987,7 +987,7 @@
             "OpensAt": null,
             "Address": "525 McCormick Rd",
             "GlobalAddress": "Charlottesville, VA 22903",
-            "HoursOfOperations": "All Day 11:00am - 12:00am",
+            "HoursOfOperations": "All Day 11:00am - 11:00pm",
             "LocationGroups": [
                 "Food Courts"
             ],
@@ -1021,7 +1021,7 @@
             "OpensAt": null,
             "Address": "525 McCormick Road",
             "GlobalAddress": "Charlottesville, VA 22903",
-            "HoursOfOperations": "All Day 11:00am - 12:00am",
+            "HoursOfOperations": "All Day 11:00am - 11:00pm",
             "LocationGroups": [
                 "Food Courts"
             ],
@@ -1055,7 +1055,7 @@
             "OpensAt": null,
             "Address": "525 McCormick Rd",
             "GlobalAddress": "Charlottesville, VA 22903",
-            "HoursOfOperations": "All Day 11:00am - 12:00am",
+            "HoursOfOperations": "All Day 11:00am - 11:00pm",
             "LocationGroups": [
                 "Convenience",
                 "Food Courts"
