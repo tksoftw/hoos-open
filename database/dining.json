@@ -176,8 +176,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/food-truck-street-eats.ashx?mh=270&mw=540&hash=8A65884069AAEBD709A881341F2255153D6872DF",
             "Address": "525 McCormick Road",
             "hours": [
-                "11am",
-                "3pm"
+                "Closed",
+                null
             ]
         },
         "708": {
