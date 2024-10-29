@@ -19,7 +19,7 @@ jobs:
         python-version: '3.x'
 
     - name: Run dining hours script
-      run: python path/to/your_script.py  # Replace with actual path to your script
+      run: python updatedining.py
 
     - name: Commit and push changes
       run: |

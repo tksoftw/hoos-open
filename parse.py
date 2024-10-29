@@ -1,7 +1,6 @@
 import json
 import pytz
 from datetime import datetime, timedelta
-from req import get_dine_html
 
 first_recorded_day = datetime(2024, 10, 13)
 # days_of_the_week = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
@@ -122,11 +121,6 @@ def update_dining_hours(html_text: str):
     with open('database/dining.json', 'w') as file:
         json.dump(d_new, file, indent=4)
         print('updated dine json!')
-    
-
-if __name__ == '__main__':
-    dine_html_text = get_dine_html()
-    update_dining_hours(dine_html_text)
     
 
     
