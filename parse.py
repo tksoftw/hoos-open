@@ -1,6 +1,7 @@
 import json
+import pytz
 from datetime import datetime, timedelta
-from req import update_dine_html
+from req import get_dine_html
 
 first_recorded_day = datetime(2024, 10, 13)
 # days_of_the_week = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
@@ -70,34 +71,65 @@ def export_libs():
             str_america_time = day.strftime("%m-%d-%Y")
             db[str_america_time] = all_hours
             day += timedelta(days=1)
-        print(db)
+        # print(db)
 
     with open('libraries_formatted.json', 'w') as file:
         json.dump(db, file, indent=4)
 
+def get_first_digit_index(s: str):
+    for i, ch in enumerate(s):
+        if ch.isdigit():
+            return i
+    return -1
 
-def get_dining_hours(html_text: str):
+def update_dining_hours(html_text: str):
     dict_raw = extract_between(html_text, 'model', 'filter', 1)
     dict_start, dict_end = dict_raw.find('{'), dict_raw.rfind('}')+1
     dict_str = dict_raw[dict_start:dict_end]
     d = json.loads(dict_str)
-    return d
+    date_str = datetime.now(tz=pytz.timezone('US/Eastern')).strftime("%m-%d-%Y")
+
+    id_modify_dict = {
+        "704": 'Newcomb Dining Room',
+        "701": 'Runk Dining Room',
+        "6011": '1819 Supply @ Newcomb',
+        "5433": 'Food Trucks'
+    }
+
+    for loc in d['Locations']:
+        # print(loc['HoursOfOperations'])
+        if loc['HoursOfOperations'] and get_first_digit_index(loc['HoursOfOperations']) != -1 and ' - ' in loc['HoursOfOperations']:
+            loc['hours'] = [time_str.replace(':00', '') for time_str in loc['HoursOfOperations'][get_first_digit_index(loc['HoursOfOperations']):].split(' - ')]
+            if loc['hours'][0] == loc['hours'][1]:
+                loc['hours'] = ['24 Hours', None]
+        else:
+            loc['hours'] = ['Closed', None]
+
+        # Modify display names for specific IDs
+        loc['DisplayName'] = id_modify_dict.get(loc['Id'], loc['DisplayName'])
+                
+
+    d_filtered = {
+        date_str : {val['Id'] : {k : v for k, v in val.items() if k in {'DisplayName', 'Address', 'LocationImageUrl', 'hours'}} for val in d['Locations']}
+    }
+    
+    
+    with open('database/dining.json', 'r') as file:
+        d_old = json.load(file)
+
+    d_new = d_old | d_filtered
+    
+    with open('database/dining.json', 'w') as file:
+        json.dump(d_new, file, indent=4)
+        print('updated dine json!')
     
 
-update_dine_html()
+if __name__ == '__main__':
+    dine_html_text = get_dine_html()
+    update_dining_hours(dine_html_text)
+    
 
-with open('dine_site.html', 'r', encoding='utf-8') as file:
-    contents = file.read()
-    d = get_dining_hours(contents)
-
-with open('database/dining.json', 'w') as file:
-    json.dump(d, file, indent=4)
-    print('updated dine json!')
-
-
-
-
-
+    
 
 
 

@@ -1,3 +1,26 @@
+// Function to get the current date formatted as "mm-dd-yyyy" in Eastern Time and store the day integer
+function getCurrentDateAndDay() {
+    const date = new Date();
+    
+    // Convert to Eastern Time
+    const easternDate = new Date(date.toLocaleString('en-US', { timeZone: 'America/New_York' }));
+    
+    // Format the date as "mm-dd-yyyy"
+    let formattedDate = easternDate.toLocaleDateString('en-US', {
+        month: '2-digit',
+        day: '2-digit',
+        year: 'numeric'
+    });
+
+    // Replace slashes with -
+    formattedDate = formattedDate.replaceAll('/', '-');
+    
+    // Save the day as an integer
+    const day = easternDate.getDate();
+    
+    return { formattedDate, day };
+}
+
 function loadJSONSync(filePath) {
     var xhr = new XMLHttpRequest();
     xhr.open("GET", filePath, false); // 'false' makes the request synchronous
@@ -85,53 +108,38 @@ function openLocationWindow(locationId) {
 
 // Function to update the page with the data
 function updateLocations() {
+    const { formattedDate, day } = getCurrentDateAndDay(); 
     const jsonData = loadJSONSync('database/dining.json');
-    console.log(jsonData);
+    if (!jsonData[formattedDate]) return;
+
+    // console.log(jsonData);
 
     // Create a new array of objects with only the filtered keys
-    const filteredData = jsonData.Locations
-        .filter(location => location['ChildLocationsNames'] == null) // Filter out locations with non-null 'ChildLocationsNames'
-        .map(location => {
-            return Object.keys(location)
-                .filter(key => ["Id", "DisplayName", "LocationImageUrl", "HoursOfOperations"].includes(key)) // Only include keys we need
-                .reduce((obj, key) => {
-                    obj[key] = location[key];
-                    return obj;
-                }, {});
-        });
+    // const filteredData = jsonData.Locations
+    //     .filter(location => location['ChildLocationsNames'] == null) // Filter out locations with non-null 'ChildLocationsNames'
+    //     .map(location => {
+    //         return Object.keys(location)
+    //             .filter(key => ["Id", "DisplayName", "LocationImageUrl", "HoursOfOperations"].includes(key)) // Only include keys we need
+    //             .reduce((obj, key) => {
+    //                 obj[key] = location[key];
+    //                 return obj;
+    //             }, {});
+    //     });
 
     // Loop through filteredData and update "LocationImageUrl"
+    const locations = jsonData[formattedDate];
     const container = document.getElementById('button-container');
-    filteredData.forEach(location => {
+    Object.keys(locations).forEach(locationId => {
+        const location = locations[locationId]
+        
         if (location.LocationImageUrl) {
             location.LocationImageUrl = updateImageUrl(location.LocationImageUrl);
         }
 
-        // Modify display names for specific IDs
-        if (location.Id == 704) {
-            location.DisplayName = 'Newcomb Dining Room';
-        } else if (location.Id == 701) {
-            location.DisplayName = 'Runk Dining Room';
-        } else if (location.Id == 6011) {
-            location.DisplayName = '1819 Supply @ Newcomb';
-        } else if (location.Id == 5433) {
-            location.DisplayName = 'Food Trucks'
-        }
+        
 
         // Handle hours of operation
-        if (location.HoursOfOperations == null) {
-            location.HoursOfOperations = "Closed";
-        } else {
-            location.HoursOfOperations = location.HoursOfOperations
-                .replace('All Day', '')
-                .replace('Lunch', '')
-                .replace('Dinner', '')
-                .replaceAll(':00', ''); // Remove :00s
-            const hourStartAndEnd = location.HoursOfOperations.split('-');
-            if (hourStartAndEnd[0].trim() == hourStartAndEnd[1].trim()) {
-                location.HoursOfOperations = "24 Hours";
-            }
-        }
+        let hoursHTML = (location.hours[1] == null) ? location.hours[0] : `${location.hours[0]}-${location.hours[1]}<br>`;
 
         // Create and append buttons based on the filtered data
         const templateButton = document.getElementById('template-button');
@@ -140,12 +148,12 @@ function updateLocations() {
         // Set the new button's content
         newButton.querySelector('.img-wrap').style.backgroundImage = `url(${location.LocationImageUrl})`;
         newButton.querySelector('h2').innerHTML = location.DisplayName;
-        newButton.querySelector('p').innerHTML = location.HoursOfOperations.replace(' -', '-<br>');
-        newButton.querySelector('p').id = `${location.Id}-times`;
+        newButton.querySelector('p').innerHTML = hoursHTML;
+        newButton.querySelector('p').id = `${locationId}-times`;
 
         // Add click event to open the correct URL
         newButton.addEventListener('click', function () {
-            openLocationWindow(location.Id);
+            openLocationWindow(locationId);
         });
 
         // Append the new button to the container
