@@ -139,7 +139,7 @@ function updateLocations() {
         
 
         // Handle hours of operation
-        let hoursHTML = (location.hours[1] == null) ? location.hours[0] : `${location.hours[0]}-${location.hours[1]}<br>`;
+        let hoursHTML = (location.hours[1] == null) ? location.hours[0] : `${location.hours[0]}-<br>${location.hours[1]}`;
 
         // Create and append buttons based on the filtered data
         const templateButton = document.getElementById('template-button');

@@ -2,7 +2,7 @@ name: Update Dining Hours JSON
 
 on:
   schedule:
-    - cron: "0 10 * * *"  # Scheduled time (6 a.m. EDT, 10 a.m. UTC)
+    - cron: "0 11-19 * * *"  # Scheduled every hour from 11 a.m. to 7 p.m. UTC (7 a.m. to 3 p.m. EDT)
   workflow_dispatch:  # Allows manual trigger for testing
 
 jobs:
