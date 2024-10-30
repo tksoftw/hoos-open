@@ -331,8 +331,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/OHillLocationCard.ashx?mh=270&mw=540&hash=192555A4181D6BDDF1A3BF9A4210CEBDB52FCBA7",
             "Address": "525 McCormick Rd",
             "hours": [
-                "7am",
-                "10:30am"
+                "11am",
+                "2pm"
             ]
         },
         "704": {
@@ -340,8 +340,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/FreshFoodCoCard.ashx?mh=270&mw=540&hash=901161E61F02A05E4D30F0D127354B90CDDCE0F5",
             "Address": "180 McCormick Rd",
             "hours": [
-                "7am",
-                "10:30am"
+                "11am",
+                "2pm"
             ]
         },
         "701": {
@@ -349,8 +349,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/RunkDiningCard.ashx?mh=270&mw=540&hash=40E22B7F759FF98CCE41C27EC4EC60B1B24548FC",
             "Address": "265 Hereford Drive",
             "hours": [
-                "7am",
-                "11am"
+                "11am",
+                "4pm"
             ]
         },
         "1643": {
@@ -385,8 +385,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/CastleCard.ashx?mh=270&mw=540&hash=1886D6FA55AA96DABF5196ACA219330E7A135825",
             "Address": "10 Bonnycastle Drive",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "6:30pm"
             ]
         },
         "714": {
@@ -412,8 +412,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/Burrito-Theory.ashx?mh=270&mw=540&hash=12938102061DB38A01E173BFC775AAC27C17918F",
             "Address": "525 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "5pm"
             ]
         },
         "5485": {
@@ -457,8 +457,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/Pav-XI.ashx?mh=270&mw=540&hash=712DAC12F76E3FF4F456D57CB93C2E091866C40B",
             "Address": "180 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "8pm"
             ]
         },
         "7647": {
@@ -502,8 +502,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/food-truck-street-eats.ashx?mh=270&mw=540&hash=8A65884069AAEBD709A881341F2255153D6872DF",
             "Address": "525 McCormick Road",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "3pm"
             ]
         },
         "708": {
@@ -511,8 +511,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/westrangecard.ashx?mh=270&mw=540&hash=97D12A53F3F516AB5A78D638A73071B44F3BDDAC",
             "Address": "211 McCormick Road",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "11pm"
             ]
         },
         "6011": {
@@ -556,8 +556,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Sandwich-Gourmet.ashx?mh=270&mw=540&hash=921FF45ED95C37A44B4272D0B603E2EAC80041A1",
             "Address": "551 Brandon Avenue",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "8pm"
             ]
         },
         "84475": {
@@ -565,8 +565,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/GroceryProduce2.ashx?mh=270&mw=540&hash=1CFFA7FF40F8717181C6A92DA7136F616549E70B",
             "Address": "551 Brandon Avenue",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "8pm"
             ]
         },
         "10760": {
@@ -574,8 +574,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/PapaJohns.ashx?mh=270&mw=540&hash=0DCBC3C804EB9F50B3FA24B270158777B9EEFE72",
             "Address": "2171 Ivy Road Suite 1",
             "hours": [
-                "Closed",
-                null
+                "10:30am",
+                "12am"
             ]
         },
         "18240": {
@@ -583,8 +583,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/Hoos-Hot-Chicken.ashx?mh=270&mw=540&hash=C7E0E07D434654B9F4EC53EDDC29CC80F4747128",
             "Address": "525 McCormick Road",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "11pm"
             ]
         },
         "2692": {
@@ -592,8 +592,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/Twisted-Tortilla.ashx?mh=270&mw=540&hash=043A0EE29F4B59F1BCBCFEB363D2604EE6D500C1",
             "Address": "525 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "11pm"
             ]
         },
         "18070": {
@@ -601,8 +601,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/Rice-Bowl-Express.ashx?mh=270&mw=540&hash=83CCD1ACFD1807F10EBE306AE68FAFAFCFEB6325",
             "Address": "525 McCormick Road",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "11pm"
             ]
         },
         "4041": {
@@ -610,8 +610,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/crossroadswebsitephoto.ashx?mh=270&mw=540&hash=6A42C7996F6A025891A756EF9CC11A6EA0A9857A",
             "Address": "525 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "11pm"
             ]
         },
         "13148": {
@@ -619,8 +619,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/SushiRolls.ashx?mh=270&mw=540&hash=BABBC1231B81486AB5AF7BF5E359D7CC8B97AC3D",
             "Address": "180 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "8pm"
             ]
         },
         "8750": {
@@ -628,8 +628,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/Chik-fil-A.ashx?mh=270&mw=540&hash=24188B2340DC482AAEDB9C5E03E771B97225B8F6",
             "Address": "180 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "8pm"
             ]
         },
         "15334": {
@@ -646,8 +646,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/Subway.ashx?mh=270&mw=540&hash=3DE361B1DE8A972D3C67810556AF229684FC13E7",
             "Address": "180 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "8pm"
             ]
         }
     }
