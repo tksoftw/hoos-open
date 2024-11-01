@@ -1046,8 +1046,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/rookies-aemc-graphic.ashx?mh=270&mw=540&hash=BBD502D7B4C536E0B3BC2E671B353FE13303B362",
             "Address": "291 McCormick Rd",
             "hours": [
-                "9am",
-                "3pm"
+                "Closed",
+                null
             ]
         },
         "709": {
@@ -1118,8 +1118,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/RisingRollCard.ashx?mh=270&mw=540&hash=2BEC0858BF461BF0B70D39BEC3FACC2059EBE91E",
             "Address": "New Cabell Hall",
             "hours": [
-                "8am",
-                "3pm"
+                "Closed",
+                null
             ]
         },
         "1938": {
@@ -1154,8 +1154,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/food-truck-street-eats.ashx?mh=270&mw=540&hash=8A65884069AAEBD709A881341F2255153D6872DF",
             "Address": "525 McCormick Road",
             "hours": [
-                "11am",
-                "3pm"
+                "Closed",
+                null
             ]
         },
         "708": {
