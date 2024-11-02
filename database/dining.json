@@ -1408,8 +1408,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/juicelaundry-01.ashx?mh=270&mw=540&hash=A9C6F38538A49128D91B822D282D7FE3BE50AFE0",
             "Address": "450 Whitehead Rd",
             "hours": [
-                "10am",
-                "3pm"
+                "Closed",
+                null
             ]
         },
         "15120": {
