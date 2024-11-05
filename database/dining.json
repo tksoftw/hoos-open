@@ -2287,8 +2287,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/OHillLocationCard.ashx?mh=270&mw=540&hash=192555A4181D6BDDF1A3BF9A4210CEBDB52FCBA7",
             "Address": "525 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "7am",
+                "8pm"
             ]
         },
         "704": {
