@@ -3328,8 +3328,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/rookies-aemc-graphic.ashx?mh=270&mw=540&hash=BBD502D7B4C536E0B3BC2E671B353FE13303B362",
             "Address": "291 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "9am",
+                "3pm"
             ]
         },
         "709": {
@@ -3364,8 +3364,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/juicelaundry-01.ashx?mh=270&mw=540&hash=A9C6F38538A49128D91B822D282D7FE3BE50AFE0",
             "Address": "450 Whitehead Rd",
             "hours": [
-                "Closed",
-                null
+                "9am",
+                "4pm"
             ]
         },
         "15120": {
@@ -3373,8 +3373,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/JLcard.ashx?mh=270&mw=540&hash=2A61707C1424A1C668ACABEDA4A1C67148529C7D",
             "Address": "180 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "9am",
+                "4pm"
             ]
         },
         "712": {
@@ -3382,8 +3382,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/FineArtsCard.ashx?mh=270&mw=540&hash=72CFF7D2D879A0784C0A72893A1CB637B6BB6E9E",
             "Address": "110 Bayly Drive",
             "hours": [
-                "Closed",
-                null
+                "9am",
+                "2pm"
             ]
         },
         "1392": {
@@ -3445,8 +3445,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/westrangecard.ashx?mh=270&mw=540&hash=97D12A53F3F516AB5A78D638A73071B44F3BDDAC",
             "Address": "211 McCormick Road",
             "hours": [
-                "Closed",
-                null
+                "9am",
+                "2pm"
             ]
         },
         "6011": {
