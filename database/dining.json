@@ -4279,8 +4279,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/GreenberryCard.ashx?mh=270&mw=540&hash=EC699BEB981CBE3E9C962732AB9AF7BD5F3DACBA",
             "Address": "395 McCormick Road",
             "hours": [
-                "Closed",
-                null
+                "7:30am",
+                "2pm"
             ]
         },
         "3638": {
@@ -4288,8 +4288,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Proprietary/BleekerStreet.ashx?mh=270&mw=540&hash=B47DFD74A63EA633ACA575718ABEDA0CF8A3FE3D",
             "Address": "202 Jeanette Lancaster Way",
             "hours": [
-                "Closed",
-                null
+                "8am",
+                "2pm"
             ]
         },
         "713": {
@@ -4315,8 +4315,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/saxbys-website.ashx?mh=270&mw=540&hash=1461EA8405F6B49359B5DFD969EA348C6C6CD1FC",
             "Address": "160 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "8am",
+                "7pm"
             ]
         },
         "716": {
@@ -4333,8 +4333,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/EinsteinBros.ashx?mh=270&mw=540&hash=4BEDB24C90637659613ED41125DC1B99156517EE",
             "Address": "85 Engineers Way",
             "hours": [
-                "Closed",
-                null
+                "8am",
+                "5pm"
             ]
         },
         "13903": {
@@ -4378,8 +4378,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/RisingRollCard.ashx?mh=270&mw=540&hash=2BEC0858BF461BF0B70D39BEC3FACC2059EBE91E",
             "Address": "New Cabell Hall",
             "hours": [
-                "Closed",
-                null
+                "8am",
+                "4pm"
             ]
         },
         "1938": {
@@ -4387,8 +4387,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Sandwich-TurkeyVeggie.ashx?mh=270&mw=540&hash=39C5A4883A010251D91036D4E6A9EA46CCA664E8",
             "Address": "580 Massie Road",
             "hours": [
-                "Closed",
-                null
+                "7:30am",
+                "1:30pm"
             ]
         },
         "4353": {
@@ -4405,8 +4405,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/sturbux.ashx?mh=270&mw=540&hash=991D4045289DDB8F3A24046FB77B2073F0433A92",
             "Address": null,
             "hours": [
-                "Closed",
-                null
+                "8am",
+                "7pm"
             ]
         },
         "5433": {
@@ -4441,8 +4441,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Pancakes.ashx?mh=270&mw=540&hash=F911506BF789765D66C0AEE6DF098D88346E437A",
             "Address": "551 Brandon Avenue",
             "hours": [
-                "Closed",
-                null
+                "8am",
+                "11pm"
             ]
         },
         "84472": {
