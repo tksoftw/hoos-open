@@ -6208,8 +6208,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/FreshFoodCoCard.ashx?mh=270&mw=540&hash=901161E61F02A05E4D30F0D127354B90CDDCE0F5",
             "Address": "180 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "10am",
+                "4:30pm"
             ]
         },
         "701": {
@@ -6217,8 +6217,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/RunkDiningCard.ashx?mh=270&mw=540&hash=40E22B7F759FF98CCE41C27EC4EC60B1B24548FC",
             "Address": "265 Hereford Drive",
             "hours": [
-                "Closed",
-                null
+                "10am",
+                "4pm"
             ]
         },
         "1643": {
@@ -6271,8 +6271,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/saxbys-website.ashx?mh=270&mw=540&hash=1461EA8405F6B49359B5DFD969EA348C6C6CD1FC",
             "Address": "160 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "10am",
+                "7pm"
             ]
         },
         "716": {
@@ -6298,8 +6298,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/juicelaundry-01.ashx?mh=270&mw=540&hash=A9C6F38538A49128D91B822D282D7FE3BE50AFE0",
             "Address": "450 Whitehead Rd",
             "hours": [
-                "Closed",
-                null
+                "10am",
+                "3pm"
             ]
         },
         "15120": {
