@@ -6852,7 +6852,7 @@
             "Address": "525 McCormick Rd",
             "hours": [
                 "7am",
-                "10:30am"
+                "8pm"
             ]
         },
         "704": {
@@ -6861,7 +6861,7 @@
             "Address": "180 McCormick Rd",
             "hours": [
                 "7am",
-                "10:30am"
+                "8pm"
             ]
         },
         "701": {
@@ -7040,8 +7040,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Sandwich.ashx?mh=270&mw=540&hash=48521BF8621268688109A3E0BDBE863ED91D285C",
             "Address": "Newcomb Hall",
             "hours": [
-                "Closed",
-                null
+                "10am",
+                "8pm"
             ]
         },
         "84476": {
