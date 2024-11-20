@@ -7177,8 +7177,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/OHillLocationCard.ashx?mh=270&mw=540&hash=192555A4181D6BDDF1A3BF9A4210CEBDB52FCBA7",
             "Address": "525 McCormick Rd",
             "hours": [
-                "11am",
-                "2pm"
+                "7am",
+                "8pm"
             ]
         },
         "704": {
@@ -7186,8 +7186,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/FreshFoodCoCard.ashx?mh=270&mw=540&hash=901161E61F02A05E4D30F0D127354B90CDDCE0F5",
             "Address": "180 McCormick Rd",
             "hours": [
-                "11am",
-                "2pm"
+                "7am",
+                "8pm"
             ]
         },
         "701": {
@@ -7483,8 +7483,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/benjerrycard.ashx?mh=270&mw=540&hash=2CEA9888D1094861B7002B2C7AEB34A1AF71E79D",
             "Address": "180 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "1pm",
+                "8pm"
             ]
         },
         "8751": {
