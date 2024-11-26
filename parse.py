@@ -1,5 +1,7 @@
 import json
 import pytz
+import req
+from jsontreeview import treeView
 from datetime import datetime, timedelta
 
 first_recorded_day = datetime(2024, 10, 13)
@@ -122,12 +124,54 @@ def update_dining_hours(html_text: str):
         json.dump(d_new, file, indent=4)
         print('updated dine json!')
     
+def get_location_hours(location_html):
+    json_hours = json.loads(extract_between(location_html, 'JSON.parse(\'', '\');'))
+    
+    timestamp_format = "%Y-%m-%dT%H:%M:%SZ"
+    local_timezone = pytz.timezone('US/Eastern')
+    weekday_timestamps = [None]*7
+    for meal_period in json_hours:
+        t_open = pytz.utc.localize(datetime.strptime(meal_period['UtcStartTime'], timestamp_format)).astimezone(local_timezone)
+        t_close = pytz.utc.localize(datetime.strptime(meal_period['UtcEndTime'], timestamp_format)).astimezone(local_timezone)
+        if weekday_timestamps[meal_period['WeekDay']] is None:
+            weekday_timestamps[meal_period['WeekDay']] = [t_open, t_close]
+            continue
+        if t_open < weekday_timestamps[meal_period['WeekDay']][0]:
+            weekday_timestamps[meal_period['WeekDay']][0] = t_open
+        if t_close > weekday_timestamps[meal_period['WeekDay']][1]:
+            weekday_timestamps[meal_period['WeekDay']][1] = t_close
 
     
+    strf_timestamp = lambda t : f'{t.hour % 12}' + t.strftime(':%M%p').replace(':00', '').lower()
+    weekday_formatted_hours = [(strf_timestamp(hours[0]), strf_timestamp(hours[1])) if hours else ['Closed', None] for hours in weekday_timestamps]
 
+    now_local = datetime.now(tz=pytz.timezone('US/Eastern'))
+    first_weekday = now_local - timedelta(days=now_local.weekday())
+    date_strs = [(first_weekday + timedelta(days=i)).strftime("%m-%d-%Y") for i in range(7)]
+    update_dict = {d : t for d, t in zip(date_strs, weekday_formatted_hours)} 
 
+    return update_dict
 
+def update_location_hours(location_id, update_dict):
+    with open('database/dining_test.json', 'r') as file:
+        d_json = json.load(file)
+    
+    for date_str, hours in update_dict.items():
+        if date_str not in d_json:
+            d_json[date_str] = {}
+        if str(location_id) not in d_json[date_str]:
+            d_json[date_str][str(location_id)] = {}
+        d_json[date_str][str(location_id)]['hours'] = hours
 
+    with open('database/dining_test.json', 'w') as file:
+        json.dump(d_json, file, indent=4)
+        print('updated dine json!')
+        
+
+if __name__ == '__main__':
+    newcomb = req.get_loc_hours(704)
+    newcomb_hours = get_location_hours(newcomb)
+    update_location_hours(704, newcomb_hours)
 
 
 
