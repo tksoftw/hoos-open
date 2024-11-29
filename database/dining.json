@@ -10309,8 +10309,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Pancakes.ashx?mh=270&mw=540&hash=F911506BF789765D66C0AEE6DF098D88346E437A",
             "Address": "551 Brandon Avenue",
             "hours": [
-                "Closed",
-                null
+                "9am",
+                "5pm"
             ]
         },
         "84472": {
