@@ -11089,8 +11089,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/OHillLocationCard.ashx?mh=270&mw=540&hash=192555A4181D6BDDF1A3BF9A4210CEBDB52FCBA7",
             "Address": "525 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "7am",
+                "10:30am"
             ]
         },
         "704": {
@@ -11098,8 +11098,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/FreshFoodCoCard.ashx?mh=270&mw=540&hash=901161E61F02A05E4D30F0D127354B90CDDCE0F5",
             "Address": "180 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "7am",
+                "10:30am"
             ]
         },
         "701": {
@@ -11242,8 +11242,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/GritCoffee.ashx?mh=270&mw=540&hash=9A5A1A8EEF3D69D95B3CF000F34CA3EF797C5CA5",
             "Address": "1540 Jefferson Park Avenue",
             "hours": [
-                "Closed",
-                null
+                "7am",
+                "5pm"
             ]
         },
         "6044": {
@@ -11305,8 +11305,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Coffee-Cup.ashx?mh=270&mw=540&hash=A21ADEC579CB1959FE6E5B73E8245DBD44C99DDF",
             "Address": "551 Brandon Avenue",
             "hours": [
-                "Closed",
-                null
+                "7am",
+                "8pm"
             ]
         },
         "84474": {
