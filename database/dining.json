@@ -12429,8 +12429,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/GreenberryCard.ashx?mh=270&mw=540&hash=EC699BEB981CBE3E9C962732AB9AF7BD5F3DACBA",
             "Address": "395 McCormick Road",
             "hours": [
-                "7:30am",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "3638": {
@@ -12438,8 +12438,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Proprietary/BleekerStreet.ashx?mh=270&mw=540&hash=B47DFD74A63EA633ACA575718ABEDA0CF8A3FE3D",
             "Address": "202 Jeanette Lancaster Way",
             "hours": [
-                "8am",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "713": {
@@ -12483,8 +12483,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/EinsteinBros.ashx?mh=270&mw=540&hash=4BEDB24C90637659613ED41125DC1B99156517EE",
             "Address": "85 Engineers Way",
             "hours": [
-                "8am",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "13903": {
@@ -12510,8 +12510,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/FineArtsCard.ashx?mh=270&mw=540&hash=72CFF7D2D879A0784C0A72893A1CB637B6BB6E9E",
             "Address": "110 Bayly Drive",
             "hours": [
-                "9am",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "1392": {
@@ -12537,8 +12537,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Sandwich-TurkeyVeggie.ashx?mh=270&mw=540&hash=39C5A4883A010251D91036D4E6A9EA46CCA664E8",
             "Address": "580 Massie Road",
             "hours": [
-                "7:30am",
-                "1:30pm"
+                "Closed",
+                null
             ]
         },
         "4353": {
@@ -12573,8 +12573,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/westrangecard.ashx?mh=270&mw=540&hash=97D12A53F3F516AB5A78D638A73071B44F3BDDAC",
             "Address": "211 McCormick Road",
             "hours": [
-                "9am",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "6011": {
