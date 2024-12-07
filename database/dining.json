@@ -12737,8 +12737,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/RunkDiningCard.ashx?mh=270&mw=540&hash=40E22B7F759FF98CCE41C27EC4EC60B1B24548FC",
             "Address": "265 Hereford Drive",
             "hours": [
-                "Closed",
-                null
+                "10am",
+                "4pm"
             ]
         },
         "1643": {
@@ -12818,8 +12818,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/juicelaundry-01.ashx?mh=270&mw=540&hash=A9C6F38538A49128D91B822D282D7FE3BE50AFE0",
             "Address": "450 Whitehead Rd",
             "hours": [
-                "Closed",
-                null
+                "10am",
+                "3pm"
             ]
         },
         "15120": {
