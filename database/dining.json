@@ -14023,8 +14023,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/OHillLocationCard.ashx?mh=270&mw=540&hash=192555A4181D6BDDF1A3BF9A4210CEBDB52FCBA7",
             "Address": "525 McCormick Rd",
             "hours": [
-                "11am",
-                "2pm"
+                "7am",
+                "8pm"
             ]
         },
         "704": {
@@ -14032,8 +14032,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/FreshFoodCoCard.ashx?mh=270&mw=540&hash=901161E61F02A05E4D30F0D127354B90CDDCE0F5",
             "Address": "180 McCormick Rd",
             "hours": [
-                "11am",
-                "2pm"
+                "7am",
+                "8pm"
             ]
         },
         "701": {
@@ -14059,8 +14059,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/GreenberryCard.ashx?mh=270&mw=540&hash=EC699BEB981CBE3E9C962732AB9AF7BD5F3DACBA",
             "Address": "395 McCormick Road",
             "hours": [
-                "7:30am",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "3638": {
@@ -14167,8 +14167,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Sandwich-TurkeyVeggie.ashx?mh=270&mw=540&hash=39C5A4883A010251D91036D4E6A9EA46CCA664E8",
             "Address": "580 Massie Road",
             "hours": [
-                "7:30am",
-                "1:30pm"
+                "Closed",
+                null
             ]
         },
         "4353": {
