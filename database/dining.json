@@ -15001,8 +15001,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/OHillLocationCard.ashx?mh=270&mw=540&hash=192555A4181D6BDDF1A3BF9A4210CEBDB52FCBA7",
             "Address": "525 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "7am",
+                "10:30am"
             ]
         },
         "704": {
@@ -15217,8 +15217,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Coffee-Cup.ashx?mh=270&mw=540&hash=A21ADEC579CB1959FE6E5B73E8245DBD44C99DDF",
             "Address": "551 Brandon Avenue",
             "hours": [
-                "Closed",
-                null
+                "7am",
+                "8pm"
             ]
         },
         "84474": {
