@@ -15336,8 +15336,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/FreshFoodCoCard.ashx?mh=270&mw=540&hash=901161E61F02A05E4D30F0D127354B90CDDCE0F5",
             "Address": "180 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "10am",
+                "10:30am"
             ]
         },
         "701": {
@@ -15345,8 +15345,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/RunkDiningCard.ashx?mh=270&mw=540&hash=40E22B7F759FF98CCE41C27EC4EC60B1B24548FC",
             "Address": "265 Hereford Drive",
             "hours": [
-                "Closed",
-                null
+                "10am",
+                "8pm"
             ]
         },
         "1643": {
