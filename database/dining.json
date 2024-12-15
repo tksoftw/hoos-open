@@ -15543,8 +15543,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Coffee-Cup.ashx?mh=270&mw=540&hash=A21ADEC579CB1959FE6E5B73E8245DBD44C99DDF",
             "Address": "551 Brandon Avenue",
             "hours": [
-                "Closed",
-                null
+                "7am",
+                "8pm"
             ]
         },
         "84474": {
