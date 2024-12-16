@@ -15662,8 +15662,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/FreshFoodCoCard.ashx?mh=270&mw=540&hash=901161E61F02A05E4D30F0D127354B90CDDCE0F5",
             "Address": "180 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "10am",
+                "10:30am"
             ]
         },
         "701": {
@@ -15842,8 +15842,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Sandwich.ashx?mh=270&mw=540&hash=48521BF8621268688109A3E0BDBE863ED91D285C",
             "Address": "Newcomb Hall",
             "hours": [
-                "Closed",
-                null
+                "10am",
+                "8pm"
             ]
         },
         "84476": {
@@ -15851,8 +15851,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Pancakes.ashx?mh=270&mw=540&hash=F911506BF789765D66C0AEE6DF098D88346E437A",
             "Address": "551 Brandon Avenue",
             "hours": [
-                "Closed",
-                null
+                "8am",
+                "11pm"
             ]
         },
         "84472": {
