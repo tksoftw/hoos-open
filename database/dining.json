@@ -15988,8 +15988,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/FreshFoodCoCard.ashx?mh=270&mw=540&hash=901161E61F02A05E4D30F0D127354B90CDDCE0F5",
             "Address": "180 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "10am",
+                "2:15pm"
             ]
         },
         "701": {
@@ -16168,8 +16168,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Sandwich.ashx?mh=270&mw=540&hash=48521BF8621268688109A3E0BDBE863ED91D285C",
             "Address": "Newcomb Hall",
             "hours": [
-                "Closed",
-                null
+                "10am",
+                "8pm"
             ]
         },
         "84476": {
