@@ -16449,8 +16449,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Sandwich-TurkeyVeggie.ashx?mh=270&mw=540&hash=39C5A4883A010251D91036D4E6A9EA46CCA664E8",
             "Address": "580 Massie Road",
             "hours": [
-                "Closed",
-                null
+                "7:30am",
+                "1:30pm"
             ]
         },
         "4353": {
@@ -16503,8 +16503,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Pancakes.ashx?mh=270&mw=540&hash=F911506BF789765D66C0AEE6DF098D88346E437A",
             "Address": "551 Brandon Avenue",
             "hours": [
-                "Closed",
-                null
+                "8am",
+                "7pm"
             ]
         },
         "84472": {
