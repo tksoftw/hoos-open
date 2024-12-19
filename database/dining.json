@@ -16775,8 +16775,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Sandwich-TurkeyVeggie.ashx?mh=270&mw=540&hash=39C5A4883A010251D91036D4E6A9EA46CCA664E8",
             "Address": "580 Massie Road",
             "hours": [
-                "7:30am",
-                "1:30pm"
+                "Closed",
+                null
             ]
         },
         "4353": {
