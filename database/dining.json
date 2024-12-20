@@ -16950,5 +16950,331 @@
                 null
             ]
         }
+    },
+    "12-20-2024": {
+        "695": {
+            "DisplayName": "Observatory Hill Dining Room",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/OHillLocationCard.ashx?mh=270&mw=540&hash=192555A4181D6BDDF1A3BF9A4210CEBDB52FCBA7",
+            "Address": "525 McCormick Rd",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "704": {
+            "DisplayName": "Newcomb Dining Room",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/FreshFoodCoCard.ashx?mh=270&mw=540&hash=901161E61F02A05E4D30F0D127354B90CDDCE0F5",
+            "Address": "180 McCormick Rd",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "701": {
+            "DisplayName": "Runk Dining Room",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/RunkDiningCard.ashx?mh=270&mw=540&hash=40E22B7F759FF98CCE41C27EC4EC60B1B24548FC",
+            "Address": "265 Hereford Drive",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "1643": {
+            "DisplayName": "John Paul Jones Athletic Dining Room",
+            "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Salad2.ashx?mh=270&mw=540&hash=2FE75A3179B45EB800F30A61442F6B2D09DA6DDE",
+            "Address": "295 Massie Rd",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "16752": {
+            "DisplayName": "Greenberry's at Wilsdorf",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/GreenberryCard.ashx?mh=270&mw=540&hash=EC699BEB981CBE3E9C962732AB9AF7BD5F3DACBA",
+            "Address": "395 McCormick Road",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "3638": {
+            "DisplayName": "Caf\u00e9 McLeod",
+            "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Proprietary/BleekerStreet.ashx?mh=270&mw=540&hash=B47DFD74A63EA633ACA575718ABEDA0CF8A3FE3D",
+            "Address": "202 Jeanette Lancaster Way",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "713": {
+            "DisplayName": "Za'atar at The Castle",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/CastleCard.ashx?mh=270&mw=540&hash=1886D6FA55AA96DABF5196ACA219330E7A135825",
+            "Address": "10 Bonnycastle Drive",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "714": {
+            "DisplayName": "Rookie's Cafe",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/rookies-aemc-graphic.ashx?mh=270&mw=540&hash=BBD502D7B4C536E0B3BC2E671B353FE13303B362",
+            "Address": "291 McCormick Rd",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "709": {
+            "DisplayName": "Saxbys @ Shannon Library",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/saxbys-website.ashx?mh=270&mw=540&hash=1461EA8405F6B49359B5DFD969EA348C6C6CD1FC",
+            "Address": "160 McCormick Rd",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "716": {
+            "DisplayName": "Crossroads Food Court and Convenience Store",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/Burrito-Theory/b035be91-e4fb-41d0-a01b-cba19e267e7f.ashx?mh=270&mw=540&hash=44CCF579AD85579649418A484FF55220145E7DD2",
+            "Address": "525 McCormick Rd",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "5485": {
+            "DisplayName": "Einstein Bros. Bagels at Rice Hall",
+            "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/EinsteinBros.ashx?mh=270&mw=540&hash=4BEDB24C90637659613ED41125DC1B99156517EE",
+            "Address": "85 Engineers Way",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "13903": {
+            "DisplayName": "The Juice Laundry @ AFC",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/juicelaundry-01.ashx?mh=270&mw=540&hash=A9C6F38538A49128D91B822D282D7FE3BE50AFE0",
+            "Address": "450 Whitehead Rd",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "15120": {
+            "DisplayName": "The Juice Laundry @ Newcomb Hall",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/JLcard.ashx?mh=270&mw=540&hash=2A61707C1424A1C668ACABEDA4A1C67148529C7D",
+            "Address": "180 McCormick Rd",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "712": {
+            "DisplayName": "Local Creations @ Fine Arts",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/FineArtsCard.ashx?mh=270&mw=540&hash=72CFF7D2D879A0784C0A72893A1CB637B6BB6E9E",
+            "Address": "110 Bayly Drive",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "1392": {
+            "DisplayName": "Pavilion XI",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/Pav-XI.ashx?mh=270&mw=540&hash=712DAC12F76E3FF4F456D57CB93C2E091866C40B",
+            "Address": "180 McCormick Rd",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "7647": {
+            "DisplayName": "Rising Roll",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/RisingRollCard.ashx?mh=270&mw=540&hash=2BEC0858BF461BF0B70D39BEC3FACC2059EBE91E",
+            "Address": "New Cabell Hall",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "1938": {
+            "DisplayName": "Sidley Austin Caf\u00e9",
+            "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Sandwich-TurkeyVeggie.ashx?mh=270&mw=540&hash=39C5A4883A010251D91036D4E6A9EA46CCA664E8",
+            "Address": "580 Massie Road",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "4353": {
+            "DisplayName": "Grit Coffee @ Nau/Gibson Hall",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/GritCoffee.ashx?mh=270&mw=540&hash=9A5A1A8EEF3D69D95B3CF000F34CA3EF797C5CA5",
+            "Address": "1540 Jefferson Park Avenue",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "6044": {
+            "DisplayName": "Starbucks @ Newcomb Hall",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/sturbux.ashx?mh=270&mw=540&hash=991D4045289DDB8F3A24046FB77B2073F0433A92",
+            "Address": null,
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "5433": {
+            "DisplayName": "Food Trucks",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/food-truck-street-eats.ashx?mh=270&mw=540&hash=8A65884069AAEBD709A881341F2255153D6872DF",
+            "Address": "525 McCormick Road",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "708": {
+            "DisplayName": "West Range Caf\u00e9",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/westrangecard.ashx?mh=270&mw=540&hash=97D12A53F3F516AB5A78D638A73071B44F3BDDAC",
+            "Address": "211 McCormick Road",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "6011": {
+            "DisplayName": "1819 Supply @ Newcomb",
+            "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Sandwich.ashx?mh=270&mw=540&hash=48521BF8621268688109A3E0BDBE863ED91D285C",
+            "Address": "Newcomb Hall",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "84476": {
+            "DisplayName": "The Den",
+            "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Pancakes.ashx?mh=270&mw=540&hash=F911506BF789765D66C0AEE6DF098D88346E437A",
+            "Address": "551 Brandon Avenue",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "84472": {
+            "DisplayName": "Gaston's Market",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/Gastons-Market-Website.ashx?mh=270&mw=540&hash=69C2F03B35C2AACB48BA0B559362C43EEB544CDA",
+            "Address": "551 Brandon Avenue",
+            "hours": [
+                "24 Hours",
+                null
+            ]
+        },
+        "84473": {
+            "DisplayName": "Whisk by Peet's Coffee",
+            "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Coffee-Cup.ashx?mh=270&mw=540&hash=A21ADEC579CB1959FE6E5B73E8245DBD44C99DDF",
+            "Address": "551 Brandon Avenue",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "84474": {
+            "DisplayName": "Bodega",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/Bodega_card.ashx?mh=270&mw=540&hash=945D2B8EE93AA2E01B77128FDF3D3EEF76D127B2",
+            "Address": "551 Brandon Avenue",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "84475": {
+            "DisplayName": "Launch Kitchen",
+            "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/GroceryProduce2.ashx?mh=270&mw=540&hash=1CFFA7FF40F8717181C6A92DA7136F616549E70B",
+            "Address": "551 Brandon Avenue",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "10760": {
+            "DisplayName": "Papa John\u2019s Delivery",
+            "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/PapaJohns.ashx?mh=270&mw=540&hash=0DCBC3C804EB9F50B3FA24B270158777B9EEFE72",
+            "Address": "2171 Ivy Road Suite 1",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "18240": {
+            "DisplayName": "Hoos Hot Chicken @ Crossroads",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/Hoos-Hot-Chicken.ashx?mh=270&mw=540&hash=C7E0E07D434654B9F4EC53EDDC29CC80F4747128",
+            "Address": "525 McCormick Road",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "2692": {
+            "DisplayName": "Twisted Tortilla @ Crossroads",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/Twisted-Tortilla.ashx?mh=270&mw=540&hash=043A0EE29F4B59F1BCBCFEB363D2604EE6D500C1",
+            "Address": "525 McCormick Rd",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "18070": {
+            "DisplayName": "Rice Bowl Express @ Crossroads",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/Rice-Bowl-Express.ashx?mh=270&mw=540&hash=83CCD1ACFD1807F10EBE306AE68FAFAFCFEB6325",
+            "Address": "525 McCormick Road",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "4041": {
+            "DisplayName": "1819 Supply @ Crossroads",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/crossroadswebsitephoto.ashx?mh=270&mw=540&hash=6A42C7996F6A025891A756EF9CC11A6EA0A9857A",
+            "Address": "525 McCormick Rd",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "13148": {
+            "DisplayName": "Bento Sushi @ The Pavilion XI",
+            "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/SushiRolls.ashx?mh=270&mw=540&hash=BABBC1231B81486AB5AF7BF5E359D7CC8B97AC3D",
+            "Address": "180 McCormick Rd",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "8750": {
+            "DisplayName": "Chick-fil-A @ Pavilion XI",
+            "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/Chik-fil-A.ashx?mh=270&mw=540&hash=24188B2340DC482AAEDB9C5E03E771B97225B8F6",
+            "Address": "180 McCormick Rd",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "15334": {
+            "DisplayName": "Ben & Jerry's @ The Pavilion XI",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/benjerrycard.ashx?mh=270&mw=540&hash=2CEA9888D1094861B7002B2C7AEB34A1AF71E79D",
+            "Address": "180 McCormick Rd",
+            "hours": [
+                "Closed",
+                null
+            ]
+        },
+        "8751": {
+            "DisplayName": "Subway @ Pavilion XI",
+            "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/Subway.ashx?mh=270&mw=540&hash=3DE361B1DE8A972D3C67810556AF229684FC13E7",
+            "Address": "180 McCormick Rd",
+            "hours": [
+                "Closed",
+                null
+            ]
+        }
     }
 }
