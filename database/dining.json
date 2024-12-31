@@ -20624,8 +20624,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/Burrito-Theory/b035be91-e4fb-41d0-a01b-cba19e267e7f.ashx?mh=270&mw=540&hash=44CCF579AD85579649418A484FF55220145E7DD2",
             "Address": "525 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "5pm"
             ]
         },
         "5485": {
@@ -20669,8 +20669,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/Pav-XI.ashx?mh=270&mw=540&hash=712DAC12F76E3FF4F456D57CB93C2E091866C40B",
             "Address": "180 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "8pm"
             ]
         },
         "7647": {
@@ -20786,8 +20786,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/PapaJohns.ashx?mh=270&mw=540&hash=0DCBC3C804EB9F50B3FA24B270158777B9EEFE72",
             "Address": "2171 Ivy Road Suite 1",
             "hours": [
-                "Closed",
-                null
+                "10:30am",
+                "12am"
             ]
         },
         "18240": {
