@@ -22625,8 +22625,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/Pav-XI.ashx?mh=270&mw=540&hash=712DAC12F76E3FF4F456D57CB93C2E091866C40B",
             "Address": "180 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "8pm"
             ]
         },
         "7647": {
@@ -22688,8 +22688,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Sandwich.ashx?mh=270&mw=540&hash=48521BF8621268688109A3E0BDBE863ED91D285C",
             "Address": "Newcomb Hall",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "7pm"
             ]
         },
         "84476": {
@@ -22706,7 +22706,7 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/Gastons-Market-Website.ashx?mh=270&mw=540&hash=69C2F03B35C2AACB48BA0B559362C43EEB544CDA",
             "Address": "551 Brandon Avenue",
             "hours": [
-                "24 Hours",
+                "Closed",
                 null
             ]
         },
@@ -22742,8 +22742,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/PapaJohns.ashx?mh=270&mw=540&hash=0DCBC3C804EB9F50B3FA24B270158777B9EEFE72",
             "Address": "2171 Ivy Road Suite 1",
             "hours": [
-                "Closed",
-                null
+                "10:30am",
+                "12am"
             ]
         },
         "18240": {
@@ -22814,8 +22814,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/Subway.ashx?mh=270&mw=540&hash=3DE361B1DE8A972D3C67810556AF229684FC13E7",
             "Address": "180 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "7pm"
             ]
         }
     }
