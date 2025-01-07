@@ -96,8 +96,13 @@ def update_dining_hours(html_text: str):
         "6011": '1819 Supply @ Newcomb',
         "5433": 'Food Trucks'
     }
+    id_excludes = {
+        1392, # Pav IX general loc
+        716,  # Croads general loc
+    }
 
-    for loc in d['Locations']:
+    locations_filtered = [location for location in d['Locations'] if int(location['Id']) not in id_excludes]
+    for loc in locations_filtered:
         # print(loc['HoursOfOperations'])
         if loc['HoursOfOperations'] and get_first_digit_index(loc['HoursOfOperations']) != -1 and ' - ' in loc['HoursOfOperations']:
             loc['hours'] = [time_str.replace(':00', '') for time_str in loc['HoursOfOperations'][get_first_digit_index(loc['HoursOfOperations']):].split(' - ')]
@@ -110,15 +115,14 @@ def update_dining_hours(html_text: str):
         loc['DisplayName'] = id_modify_dict.get(loc['Id'], loc['DisplayName'])
                 
 
-    d_filtered = {
-        date_str : {val['Id'] : {k : v for k, v in val.items() if k in {'DisplayName', 'Address', 'LocationImageUrl', 'hours'}} for val in d['Locations']}
+    d_restructured = {
+        date_str : {loc['Id'] : {k : v for k, v in loc.items() if k in {'DisplayName', 'Address', 'LocationImageUrl', 'hours'}} for loc in locations_filtered}
     }
-    
     
     with open('database/dining.json', 'r') as file:
         d_old = json.load(file)
 
-    d_new = d_old | d_filtered
+    d_new = d_old | d_restructured
     
     with open('database/dining.json', 'w') as file:
         json.dump(d_new, file, indent=4)
@@ -141,13 +145,25 @@ def get_location_hours(location_html):
         if t_close > weekday_timestamps[meal_period['WeekDay']][1]:
             weekday_timestamps[meal_period['WeekDay']][1] = t_close
 
-    
+    """
+    weekday->date mapping (w/ first day of week sunday):
+    weekday : 0 -> the NEXT sunday
+    weekday : 1 -> THIS monday
+    weekday : 2 -> THIS tuesday
+    weekday : 3 -> THIS wednesday
+    ...
+    weekday : 6 -> THIS saturday
+    """
+    # Remap to first day of the week monday
+    weekday_timestamps = weekday_timestamps[1:] + [weekday_timestamps[0]]
+
     strf_timestamp = lambda t : f'{t.hour % 12}' + t.strftime(':%M%p').replace(':00', '').lower()
     weekday_formatted_hours = [(strf_timestamp(hours[0]), strf_timestamp(hours[1])) if hours else ['Closed', None] for hours in weekday_timestamps]
 
     now_local = datetime.now(tz=pytz.timezone('US/Eastern'))
-    first_weekday = now_local - timedelta(days=now_local.weekday())
-    date_strs = [(first_weekday + timedelta(days=i)).strftime("%m-%d-%Y") for i in range(7)]
+    first_weekday_date = now_local - timedelta(days=now_local.weekday())
+    print(first_weekday_date.strftime("%m-%d-%Y"))
+    date_strs = [(first_weekday_date + timedelta(days=i)).strftime("%m-%d-%Y") for i in range(7)]
     update_dict = {d : t for d, t in zip(date_strs, weekday_formatted_hours)} 
 
     return update_dict
@@ -171,7 +187,8 @@ def update_location_hours(location_id, update_dict):
 if __name__ == '__main__':
     newcomb = req.get_loc_hours(704)
     newcomb_hours = get_location_hours(newcomb)
-    update_location_hours(704, newcomb_hours)
+    print(newcomb_hours)
+    # update_location_hours(704, newcomb_hours)
 
 
 
