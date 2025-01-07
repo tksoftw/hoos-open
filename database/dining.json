@@ -22861,8 +22861,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/GreenberryCard.ashx?mh=270&mw=540&hash=EC699BEB981CBE3E9C962732AB9AF7BD5F3DACBA",
             "Address": "395 McCormick Road",
             "hours": [
-                "Closed",
-                null
+                "7:30am",
+                "2pm"
             ]
         },
         "3638": {
@@ -23023,8 +23023,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Pancakes.ashx?mh=270&mw=540&hash=F911506BF789765D66C0AEE6DF098D88346E437A",
             "Address": "551 Brandon Avenue",
             "hours": [
-                "Closed",
-                null
+                "8am",
+                "7pm"
             ]
         },
         "84472": {
