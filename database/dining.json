@@ -1154,8 +1154,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/PapaJohns.ashx?mh=270&mw=540&hash=0DCBC3C804EB9F50B3FA24B270158777B9EEFE72",
             "Address": "2171 Ivy Road Suite 1",
             "hours": [
-                "Closed",
-                null
+                "10:30am",
+                "1am"
             ]
         },
         "18240": {
@@ -1226,8 +1226,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/Subway.ashx?mh=270&mw=540&hash=3DE361B1DE8A972D3C67810556AF229684FC13E7",
             "Address": "180 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "7pm"
             ]
         }
     }
