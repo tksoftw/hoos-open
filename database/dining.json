@@ -10920,8 +10920,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Grit-Coffee-Logo-CD.ashx?mh=270&mw=540&hash=B2B3342297937E0848EFE35241F4D433453FF449",
             "Address": "1540 Jefferson Park Avenue",
             "hours": [
-                "7am",
-                "5pm"
+                "Closed",
+                null
             ]
         },
         "6044": {
@@ -10930,7 +10930,7 @@
             "Address": null,
             "hours": [
                 "8am",
-                "7pm"
+                "4pm"
             ]
         },
         "5433": {
@@ -11056,7 +11056,7 @@
             "Address": "180 McCormick Rd",
             "hours": [
                 "11am",
-                "8pm"
+                "6pm"
             ]
         },
         "8750": {
@@ -11065,7 +11065,7 @@
             "Address": "180 McCormick Rd",
             "hours": [
                 "11am",
-                "8pm"
+                "6pm"
             ]
         },
         "15334": {
@@ -11073,8 +11073,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Ben-and-Jerrys-Logo-CD.ashx?mh=270&mw=540&hash=EF1CB9A64555A7F7979F93FD1B12EF8C245B57D5",
             "Address": "180 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "1pm",
+                "6pm"
             ]
         },
         "8751": {
@@ -11083,7 +11083,7 @@
             "Address": "180 McCormick Rd",
             "hours": [
                 "11am",
-                "8pm"
+                "6pm"
             ]
         }
     }
