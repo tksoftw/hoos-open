@@ -12921,8 +12921,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Ben-and-Jerrys-Logo-CD.ashx?mh=270&mw=540&hash=EF1CB9A64555A7F7979F93FD1B12EF8C245B57D5",
             "Address": "180 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "1pm",
+                "8pm"
             ]
         },
         "8751": {
