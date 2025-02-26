@@ -15405,8 +15405,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/O-Hill-Logo-CD.ashx?mh=270&mw=540&hash=9D1860C9A580FA89608395F3C0A6F0A9DDBF9C67",
             "Address": "525 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "7am",
+                "9pm"
             ]
         },
         "704": {
@@ -15414,8 +15414,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Fresh-Food-Co-Logo-CD.ashx?mh=270&mw=540&hash=63C0075F1F2178AC82C8D76F9B1D182C1B0F4546",
             "Address": "180 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "7am",
+                "8pm"
             ]
         },
         "701": {
@@ -15423,8 +15423,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Runk-Logo-CD.ashx?mh=270&mw=540&hash=255B47ED0A3DD4AD4CECD56EA1811B055BBB4D94",
             "Address": "265 Hereford Drive",
             "hours": [
-                "Closed",
-                null
+                "7am",
+                "11am"
             ]
         },
         "1643": {
@@ -15540,8 +15540,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Grit-Coffee-Logo-CD.ashx?mh=270&mw=540&hash=B2B3342297937E0848EFE35241F4D433453FF449",
             "Address": "1540 Jefferson Park Avenue",
             "hours": [
-                "Closed",
-                null
+                "7am",
+                "5pm"
             ]
         },
         "6044": {
@@ -15603,8 +15603,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Whisk-Logo-CD.ashx?mh=270&mw=540&hash=BE8DDB625A48A2D48D7E121D34DFB5A63987EAEA",
             "Address": "551 Brandon Avenue",
             "hours": [
-                "Closed",
-                null
+                "7am",
+                "8pm"
             ]
         },
         "84474": {
