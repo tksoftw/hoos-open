@@ -25043,8 +25043,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Juice-Laudry-AFC-CD.ashx?mh=270&mw=540&hash=8E0F3204C826FBF56C9AEA0563101AAD5D1C6288",
             "Address": "450 Whitehead Rd",
             "hours": [
-                "10am",
-                "3pm"
+                "Closed",
+                null
             ]
         },
         "15120": {
