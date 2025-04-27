@@ -33885,8 +33885,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/O-Hill-Logo-CD.ashx?mh=270&mw=540&hash=9D1860C9A580FA89608395F3C0A6F0A9DDBF9C67",
             "Address": "525 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "8am",
+                "9pm"
             ]
         },
         "704": {
@@ -33957,8 +33957,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/saxbys-website.ashx?mh=270&mw=540&hash=1461EA8405F6B49359B5DFD969EA348C6C6CD1FC",
             "Address": "160 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "8am",
+                "7pm"
             ]
         },
         "5485": {
@@ -34065,8 +34065,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/The-Den-Logo-CD.ashx?mh=270&mw=540&hash=9FD35E776330EE6056A124C200F82B7871D42C31",
             "Address": "551 Brandon Avenue",
             "hours": [
-                "Closed",
-                null
+                "8am",
+                "11pm"
             ]
         },
         "84472": {
