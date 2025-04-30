@@ -34831,6 +34831,15 @@
                 "4pm"
             ]
         },
+        "2471": {
+            "DisplayName": "Wahoo Exchange",
+            "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/Card1819.ashx?mh=270&mw=540&hash=6ECE813A014255CF26658658DF1E14DE0535BEB2",
+            "Address": "P.O. Box 400312",
+            "hours": [
+                "7am",
+                "4pm"
+            ]
+        },
         "1643": {
             "DisplayName": "John Paul Jones Athletic Dining Room",
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/JPJ-Dining-Logo-CD.ashx?mh=270&mw=540&hash=CD176435734967E9F5934E15081567AE83893DFB",
@@ -35097,8 +35106,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Ben-and-Jerrys-Logo-CD.ashx?mh=270&mw=540&hash=EF1CB9A64555A7F7979F93FD1B12EF8C245B57D5",
             "Address": "180 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "1pm",
+                "8pm"
             ]
         },
         "8751": {
