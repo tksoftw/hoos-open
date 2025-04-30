@@ -34836,7 +34836,7 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/LocationCard/Card1819.ashx?mh=270&mw=540&hash=6ECE813A014255CF26658658DF1E14DE0535BEB2",
             "Address": "P.O. Box 400312",
             "hours": [
-                "7am",
+                "11am",
                 "4pm"
             ]
         },
@@ -34854,8 +34854,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Greenberrys-Logo-CD.ashx?mh=270&mw=540&hash=5A0970808BEA856441A1D987B1C726C708F9D970",
             "Address": "395 McCormick Road",
             "hours": [
-                "7:30am",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "3638": {
@@ -34863,8 +34863,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Cafe-Mcleod-Logo-Dr.ashx?mh=270&mw=540&hash=3AFDF0FE326313306E0A4AC0CE83F2C6736254A7",
             "Address": "202 Jeanette Lancaster Way",
             "hours": [
-                "8am",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "713": {
@@ -34944,8 +34944,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Sidley-Austin-Cafe-Logo-CD.ashx?mh=270&mw=540&hash=22CAC1446E7910341EB17B0DF4DC03925B8CC718",
             "Address": "580 Massie Road",
             "hours": [
-                "8am",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "4353": {
