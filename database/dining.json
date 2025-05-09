@@ -37662,8 +37662,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/O-Hill-Logo-CD.ashx?mh=270&mw=540&hash=9D1860C9A580FA89608395F3C0A6F0A9DDBF9C67",
             "Address": "525 McCormick Rd",
             "hours": [
-                "11am",
-                "2pm"
+                "7am",
+                "8pm"
             ]
         },
         "704": {
@@ -37707,8 +37707,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Greenberrys-Logo-CD.ashx?mh=270&mw=540&hash=5A0970808BEA856441A1D987B1C726C708F9D970",
             "Address": "395 McCormick Road",
             "hours": [
-                "7:30am",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "3638": {
@@ -37797,8 +37797,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Sidley-Austin-Cafe-Logo-CD.ashx?mh=270&mw=540&hash=22CAC1446E7910341EB17B0DF4DC03925B8CC718",
             "Address": "580 Massie Road",
             "hours": [
-                "8am",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "4353": {
@@ -37815,8 +37815,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Starbucks-Logo-CD.ashx?mh=270&mw=540&hash=F282337DF9AAE77576680C1E9C7BCE5F74755C1A",
             "Address": null,
             "hours": [
-                "8am",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "5433": {
@@ -37833,8 +37833,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/West-Range-Logo-CD.ashx?mh=270&mw=540&hash=592183070EDD2F8BDBAB195F2767FB78A31C7FA7",
             "Address": "211 McCormick Road",
             "hours": [
-                "11am",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "6011": {
@@ -37842,8 +37842,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/1819-Supply-Logo-CD.ashx?mh=270&mw=540&hash=F0C6EF3E6035FEAE4CD82BB0A94D1A200F675CA0",
             "Address": "Newcomb Hall",
             "hours": [
-                "10am",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "84476": {
@@ -37941,8 +37941,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Bento-Sushi-Logo-CD.ashx?mh=270&mw=540&hash=9311CD00F347E700911210A91129A1296BB1C24E",
             "Address": "180 McCormick Rd",
             "hours": [
-                "11am",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "8750": {
@@ -37950,8 +37950,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Chick-Fil-A-CD.ashx?mh=270&mw=540&hash=4057B20F40E43DB822B7DC261B4DDF12FE0C99B6",
             "Address": "180 McCormick Rd",
             "hours": [
-                "11am",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "15334": {
@@ -37968,8 +37968,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/SubWay-CD.ashx?mh=270&mw=540&hash=BABD2AB7137E5153ECEAB1A028D30C6F2DB7DC95",
             "Address": "180 McCormick Rd",
             "hours": [
-                "11am",
-                "2pm"
+                "Closed",
+                null
             ]
         }
     }
