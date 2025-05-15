@@ -39708,8 +39708,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Grit-Coffee-Logo-CD.ashx?mh=270&mw=540&hash=B2B3342297937E0848EFE35241F4D433453FF449",
             "Address": "1540 Jefferson Park Avenue",
             "hours": [
-                "7am",
-                "5pm"
+                "Closed",
+                null
             ]
         },
         "6044": {
@@ -39717,8 +39717,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Starbucks-Logo-CD.ashx?mh=270&mw=540&hash=F282337DF9AAE77576680C1E9C7BCE5F74755C1A",
             "Address": null,
             "hours": [
-                "8am",
-                "7pm"
+                "Closed",
+                null
             ]
         },
         "5433": {
@@ -39744,8 +39744,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/1819-Supply-Logo-CD.ashx?mh=270&mw=540&hash=F0C6EF3E6035FEAE4CD82BB0A94D1A200F675CA0",
             "Address": "Newcomb Hall",
             "hours": [
-                "10am",
-                "8pm"
+                "Closed",
+                null
             ]
         },
         "84476": {
@@ -39753,8 +39753,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/The-Den-Logo-CD.ashx?mh=270&mw=540&hash=9FD35E776330EE6056A124C200F82B7871D42C31",
             "Address": "551 Brandon Avenue",
             "hours": [
-                "8am",
-                "11pm"
+                "Closed",
+                null
             ]
         },
         "84472": {
@@ -39762,7 +39762,7 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Gastons-Market.ashx?mh=270&mw=540&hash=418EA02AD3624154B0FE0242F9CB3D77965E44B0",
             "Address": "551 Brandon Avenue",
             "hours": [
-                "24 Hours",
+                "Closed",
                 null
             ]
         },
@@ -39771,8 +39771,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Whisk-Logo-CD.ashx?mh=270&mw=540&hash=BE8DDB625A48A2D48D7E121D34DFB5A63987EAEA",
             "Address": "551 Brandon Avenue",
             "hours": [
-                "7am",
-                "8pm"
+                "Closed",
+                null
             ]
         },
         "84474": {
@@ -39780,8 +39780,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Bodega-Logo-CD.ashx?mh=270&mw=540&hash=AC9E3CE511F94DFBD5919117571C5C6B04DFB7F0",
             "Address": "551 Brandon Avenue",
             "hours": [
-                "11am",
-                "8pm"
+                "Closed",
+                null
             ]
         },
         "84475": {
@@ -39798,8 +39798,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Pape-Johns-Logo-CD.ashx?mh=270&mw=540&hash=BD01F4BE6F4F41BEAE953F6394D4B70723CF4282",
             "Address": "2171 Ivy Road Suite 1",
             "hours": [
-                "10:30am",
-                "12am"
+                "Closed",
+                null
             ]
         },
         "18240": {
