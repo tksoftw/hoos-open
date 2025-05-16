@@ -40034,8 +40034,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Starbucks-Logo-CD.ashx?mh=270&mw=540&hash=F282337DF9AAE77576680C1E9C7BCE5F74755C1A",
             "Address": null,
             "hours": [
-                "6am",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "5433": {
