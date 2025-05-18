@@ -40668,8 +40668,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Starbucks-Logo-CD.ashx?mh=270&mw=540&hash=F282337DF9AAE77576680C1E9C7BCE5F74755C1A",
             "Address": null,
             "hours": [
-                "6am",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "5433": {
@@ -40686,8 +40686,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/West-Range-Logo-CD.ashx?mh=270&mw=540&hash=592183070EDD2F8BDBAB195F2767FB78A31C7FA7",
             "Address": "211 McCormick Road",
             "hours": [
-                "6am",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "6011": {
@@ -40695,8 +40695,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/1819-Supply-Logo-CD.ashx?mh=270&mw=540&hash=F0C6EF3E6035FEAE4CD82BB0A94D1A200F675CA0",
             "Address": "Newcomb Hall",
             "hours": [
-                "6am",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "84476": {
