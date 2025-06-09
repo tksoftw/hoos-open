@@ -47489,8 +47489,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/O-Hill-Logo-CD.ashx?mh=270&mw=540&hash=9D1860C9A580FA89608395F3C0A6F0A9DDBF9C67",
             "Address": "525 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "7:30am",
+                "9:30am"
             ]
         },
         "704": {
@@ -47534,8 +47534,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Greenberrys-Logo-CD.ashx?mh=270&mw=540&hash=5A0970808BEA856441A1D987B1C726C708F9D970",
             "Address": "395 McCormick Road",
             "hours": [
-                "Closed",
-                null
+                "8am",
+                "2pm"
             ]
         },
         "3638": {
