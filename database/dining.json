@@ -63656,8 +63656,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/O-Hill-Logo-CD.ashx?mh=270&mw=540&hash=9D1860C9A580FA89608395F3C0A6F0A9DDBF9C67",
             "Address": "525 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "1:30pm"
             ]
         },
         "704": {
@@ -63836,8 +63836,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/1819-Supply-Logo-CD.ashx?mh=270&mw=540&hash=F0C6EF3E6035FEAE4CD82BB0A94D1A200F675CA0",
             "Address": "Newcomb Hall",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "5pm"
             ]
         },
         "84476": {
@@ -63962,8 +63962,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/SubWay-CD.ashx?mh=270&mw=540&hash=BABD2AB7137E5153ECEAB1A028D30C6F2DB7DC95",
             "Address": "180 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "5pm"
             ]
         }
     }
