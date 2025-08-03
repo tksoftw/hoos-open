@@ -65095,8 +65095,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/West-Range-Logo-CD.ashx?mh=270&mw=540&hash=592183070EDD2F8BDBAB195F2767FB78A31C7FA7",
             "Address": "211 McCormick Road",
             "hours": [
-                "Closed",
-                null
+                "9am",
+                "7pm"
             ]
         },
         "6011": {
