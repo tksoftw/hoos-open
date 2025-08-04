@@ -65241,8 +65241,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/O-Hill-Logo-CD.ashx?mh=270&mw=540&hash=9D1860C9A580FA89608395F3C0A6F0A9DDBF9C67",
             "Address": "525 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "1:30pm"
             ]
         },
         "704": {
@@ -65421,8 +65421,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/1819-Supply-Logo-CD.ashx?mh=270&mw=540&hash=F0C6EF3E6035FEAE4CD82BB0A94D1A200F675CA0",
             "Address": "Newcomb Hall",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "5pm"
             ]
         },
         "84476": {
@@ -65477,6 +65477,33 @@
             "hours": [
                 "Closed",
                 null
+            ]
+        },
+        "90970": {
+            "DisplayName": "Runk Store",
+            "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Marketplace2.ashx?mh=270&mw=540&hash=57ADDDC93C802056A05128B2B55C9F15416A2461",
+            "Address": "265 Hereford Drive",
+            "hours": [
+                "24 Hours",
+                null
+            ]
+        },
+        "90969": {
+            "DisplayName": "Whisk Crossroads",
+            "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/CoffeeBeans.ashx?mh=270&mw=540&hash=1E55DCCE49B6920B0E9637189E129DE1905412D1",
+            "Address": "525 McCormick Road",
+            "hours": [
+                "7am",
+                "5pm"
+            ]
+        },
+        "91053": {
+            "DisplayName": "Commerce Cafe",
+            "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Parfait.ashx?mh=270&mw=540&hash=F4ABEAAA724FA626BE253B7703197C7B4153CE77",
+            "Address": "111 Breeden Way",
+            "hours": [
+                "8am",
+                "5pm"
             ]
         },
         "18240": {
@@ -65547,8 +65574,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/SubWay-CD.ashx?mh=270&mw=540&hash=BABD2AB7137E5153ECEAB1A028D30C6F2DB7DC95",
             "Address": "180 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "5pm"
             ]
         }
     }
