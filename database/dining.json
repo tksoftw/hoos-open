@@ -65828,8 +65828,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Marketplace2.ashx?mh=270&mw=540&hash=57ADDDC93C802056A05128B2B55C9F15416A2461",
             "Address": "265 Hereford Drive",
             "hours": [
-                "24 Hours",
-                null
+                "8am",
+                "9pm"
             ]
         },
         "90969": {
