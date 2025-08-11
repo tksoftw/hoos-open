@@ -67838,8 +67838,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/1819-Supply-Logo-CD.ashx?mh=270&mw=540&hash=F0C6EF3E6035FEAE4CD82BB0A94D1A200F675CA0",
             "Address": "265 Hereford Drive",
             "hours": [
-                "8am",
-                "9pm"
+                "Closed",
+                null
             ]
         },
         "90969": {
@@ -67847,8 +67847,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Whisk-Logo-CD.ashx?mh=270&mw=540&hash=BE8DDB625A48A2D48D7E121D34DFB5A63987EAEA",
             "Address": "525 McCormick Road",
             "hours": [
-                "7am",
-                "5pm"
+                "Closed",
+                null
             ]
         },
         "91053": {
