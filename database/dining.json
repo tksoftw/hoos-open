@@ -70509,8 +70509,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Pape-Johns-Logo-CD.ashx?mh=270&mw=540&hash=BD01F4BE6F4F41BEAE953F6394D4B70723CF4282",
             "Address": "2171 Ivy Road Suite 1",
             "hours": [
-                "Closed",
-                null
+                "10:30am",
+                "12am"
             ]
         },
         "90970": {
@@ -70608,8 +70608,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/SubWay-CD.ashx?mh=270&mw=540&hash=BABD2AB7137E5153ECEAB1A028D30C6F2DB7DC95",
             "Address": "180 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "11am",
+                "5pm"
             ]
         }
     }
