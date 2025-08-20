@@ -70844,8 +70844,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Pape-Johns-Logo-CD.ashx?mh=270&mw=540&hash=BD01F4BE6F4F41BEAE953F6394D4B70723CF4282",
             "Address": "2171 Ivy Road Suite 1",
             "hours": [
-                "10:30am",
-                "12am"
+                "Closed",
+                null
             ]
         },
         "90970": {
