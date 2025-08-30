@@ -73978,8 +73978,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Fresh-Food-Co-Logo-CD.ashx?mh=270&mw=540&hash=63C0075F1F2178AC82C8D76F9B1D182C1B0F4546",
             "Address": "180 McCormick Road",
             "hours": [
-                "8:30pm",
-                "2:15pm"
+                "Closed",
+                null
             ]
         },
         "701": {
