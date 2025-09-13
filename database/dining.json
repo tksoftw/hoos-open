@@ -78677,8 +78677,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Runk-Logo-CD.ashx?mh=270&mw=540&hash=255B47ED0A3DD4AD4CECD56EA1811B055BBB4D94",
             "Address": "265 Hereford Drive",
             "hours": [
-                "Closed",
-                null
+                "10am",
+                "9pm"
             ]
         },
         "1643": {
@@ -78749,8 +78749,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Juice-Laudry-AFC-CD.ashx?mh=270&mw=540&hash=8E0F3204C826FBF56C9AEA0563101AAD5D1C6288",
             "Address": "450 Whitehead Rd",
             "hours": [
-                "Closed",
-                null
+                "10am",
+                "2pm"
             ]
         },
         "15120": {
@@ -78893,8 +78893,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/1819-Supply-Logo-CD.ashx?mh=270&mw=540&hash=F0C6EF3E6035FEAE4CD82BB0A94D1A200F675CA0",
             "Address": "265 Hereford Drive",
             "hours": [
-                "Closed",
-                null
+                "10am",
+                "9pm"
             ]
         },
         "90969": {
