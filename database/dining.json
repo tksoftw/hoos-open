@@ -81348,8 +81348,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Fresh-Food-Co-Logo-CD.ashx?mh=270&mw=540&hash=63C0075F1F2178AC82C8D76F9B1D182C1B0F4546",
             "Address": "180 McCormick Road",
             "hours": [
-                "Closed",
-                null
+                "10am",
+                "8pm"
             ]
         },
         "701": {
@@ -81357,8 +81357,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Runk-Logo-CD.ashx?mh=270&mw=540&hash=255B47ED0A3DD4AD4CECD56EA1811B055BBB4D94",
             "Address": "265 Hereford Drive",
             "hours": [
-                "Closed",
-                null
+                "10am",
+                "9pm"
             ]
         },
         "1643": {
@@ -81411,8 +81411,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/saxbys-website.ashx?mh=270&mw=540&hash=1461EA8405F6B49359B5DFD969EA348C6C6CD1FC",
             "Address": "160 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "10am",
+                "7pm"
             ]
         },
         "5485": {
@@ -81573,8 +81573,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/1819-Supply-Logo-CD.ashx?mh=270&mw=540&hash=F0C6EF3E6035FEAE4CD82BB0A94D1A200F675CA0",
             "Address": "265 Hereford Drive",
             "hours": [
-                "Closed",
-                null
+                "10am",
+                "9pm"
             ]
         },
         "90969": {
