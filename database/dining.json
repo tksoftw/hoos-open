@@ -84172,8 +84172,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Street-Eats-CD.ashx?mh=270&mw=540&hash=C94BC171C0EB69392DDE24355B5562027DC49F50",
             "Address": "525 McCormick Road",
             "hours": [
-                "11am",
-                "3pm"
+                "Closed",
+                null
             ]
         },
         "708": {
