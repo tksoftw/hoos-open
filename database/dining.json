@@ -85024,8 +85024,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/O-Hill-Logo-CD.ashx?mh=270&mw=540&hash=9D1860C9A580FA89608395F3C0A6F0A9DDBF9C67",
             "Address": "525 McCormick Rd",
             "hours": [
-                "11am",
-                "2pm"
+                "2pm",
+                "5pm"
             ]
         },
         "704": {
@@ -85033,8 +85033,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Fresh-Food-Co-Logo-CD.ashx?mh=270&mw=540&hash=63C0075F1F2178AC82C8D76F9B1D182C1B0F4546",
             "Address": "180 McCormick Road",
             "hours": [
-                "11am",
-                "2pm"
+                "2pm",
+                "5pm"
             ]
         },
         "701": {
@@ -85060,8 +85060,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Greenberrys-Logo-CD.ashx?mh=270&mw=540&hash=5A0970808BEA856441A1D987B1C726C708F9D970",
             "Address": "395 McCormick Road",
             "hours": [
-                "7:30am",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "3638": {
@@ -85069,8 +85069,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Cafe-Mcleod-Logo-Dr.ashx?mh=270&mw=540&hash=3AFDF0FE326313306E0A4AC0CE83F2C6736254A7",
             "Address": "202 Jeanette Lancaster Way",
             "hours": [
-                "8am",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "713": {
@@ -85150,8 +85150,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Sidley-Austin-Cafe-Logo-CD.ashx?mh=270&mw=540&hash=22CAC1446E7910341EB17B0DF4DC03925B8CC718",
             "Address": "580 Massie Rd",
             "hours": [
-                "8am",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "4353": {
@@ -85276,8 +85276,8 @@
             "LocationImageUrl": "/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Parfait.ashx?mh=270&mw=540&hash=F4ABEAAA724FA626BE253B7703197C7B4153CE77",
             "Address": "111 Breeden Way",
             "hours": [
-                "8am",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "18240": {
