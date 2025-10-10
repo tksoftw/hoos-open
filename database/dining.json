@@ -87740,8 +87740,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Zatar-Logo-CD.ashx?mh=270&mw=540&hash=2A51EFDC874D4D5219CB7874CDA6FDC387DA83D7",
             "Address": "10 Bonnycastle Drive",
             "hours": [
-                "11am",
-                "3pm"
+                "Closed",
+                null
             ]
         },
         "714": {
@@ -87749,8 +87749,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Rookies-Logo-CD.ashx?mh=270&mw=540&hash=F31C71901EE8E705282A0AE380068A0096A47764",
             "Address": "291 McCormick Rd",
             "hours": [
-                "9am",
-                "3pm"
+                "Closed",
+                null
             ]
         },
         "709": {
@@ -87785,8 +87785,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Rising-Roll-Logo-CD.ashx?mh=270&mw=540&hash=FB2EA002812747FD6EDC9B8CAE8FE9559A4A2FCB",
             "Address": "New Cabell Hall",
             "hours": [
-                "8am",
-                "3pm"
+                "Closed",
+                null
             ]
         },
         "1938": {
@@ -87812,8 +87812,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Starbucks-Logo-CD.ashx?mh=270&mw=540&hash=F282337DF9AAE77576680C1E9C7BCE5F74755C1A",
             "Address": null,
             "hours": [
-                "8am",
-                "3pm"
+                "Closed",
+                null
             ]
         },
         "5433": {
@@ -87821,8 +87821,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Street-Eats-CD.ashx?mh=270&mw=540&hash=C94BC171C0EB69392DDE24355B5562027DC49F50",
             "Address": "525 McCormick Road",
             "hours": [
-                "11am",
-                "3pm"
+                "Closed",
+                null
             ]
         },
         "708": {
@@ -87839,8 +87839,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/1819-Supply-Logo-CD.ashx?mh=270&mw=540&hash=F0C6EF3E6035FEAE4CD82BB0A94D1A200F675CA0",
             "Address": "Newcomb Hall",
             "hours": [
-                "11am",
-                "3pm"
+                "Closed",
+                null
             ]
         },
         "84476": {
@@ -87965,8 +87965,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Bento-Sushi-Logo-CD.ashx?mh=270&mw=540&hash=9311CD00F347E700911210A91129A1296BB1C24E",
             "Address": "180 McCormick Road",
             "hours": [
-                "11am",
-                "3pm"
+                "Closed",
+                null
             ]
         },
         "8750": {
@@ -87974,8 +87974,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Chick-Fil-A-CD.ashx?mh=270&mw=540&hash=4057B20F40E43DB822B7DC261B4DDF12FE0C99B6",
             "Address": "180 McCormick Road",
             "hours": [
-                "11am",
-                "3pm"
+                "Closed",
+                null
             ]
         },
         "15334": {
@@ -87983,8 +87983,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Ben-and-Jerrys-Logo-CD.ashx?mh=270&mw=540&hash=EF1CB9A64555A7F7979F93FD1B12EF8C245B57D5",
             "Address": "180 McCormick Road",
             "hours": [
-                "11am",
-                "3pm"
+                "Closed",
+                null
             ]
         },
         "8751": {
@@ -87992,8 +87992,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/SubWay-CD.ashx?mh=270&mw=540&hash=BABD2AB7137E5153ECEAB1A028D30C6F2DB7DC95",
             "Address": "180 McCormick Rd",
             "hours": [
-                "11am",
-                "3pm"
+                "Closed",
+                null
             ]
         }
     }
