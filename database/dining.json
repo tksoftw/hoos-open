@@ -88003,8 +88003,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/O-Hill-Logo-CD.ashx?mh=270&mw=540&hash=9D1860C9A580FA89608395F3C0A6F0A9DDBF9C67",
             "Address": "525 McCormick Rd",
             "hours": [
-                "11am",
-                "2pm"
+                "2pm",
+                "5pm"
             ]
         },
         "704": {
@@ -88093,8 +88093,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Local-Creations-Logo-CD.ashx?mh=270&mw=540&hash=C0661EB82A8B1EA7FFF6B5703EA308CD7774A076",
             "Address": "2454 Old Ivy Road",
             "hours": [
-                "9pm",
-                "2pm"
+                "Closed",
+                null
             ]
         },
         "7647": {
