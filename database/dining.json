@@ -89334,8 +89334,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Rookies-Logo-CD.ashx?mh=270&mw=540&hash=F31C71901EE8E705282A0AE380068A0096A47764",
             "Address": "291 McCormick Rd",
             "hours": [
-                "Closed",
-                null
+                "9am",
+                "6pm"
             ]
         },
         "709": {
@@ -89361,8 +89361,8 @@
             "LocationImageUrl": "/-/media/Local/Higher-Education/GroupC/Virginia/Images/New-location-card/Local-Creations-Logo-CD.ashx?mh=270&mw=540&hash=C0661EB82A8B1EA7FFF6B5703EA308CD7774A076",
             "Address": "2454 Old Ivy Road",
             "hours": [
-                "Closed",
-                null
+                "9am",
+                "5pm"
             ]
         },
         "7647": {
